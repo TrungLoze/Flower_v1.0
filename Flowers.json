@@ -2008,6 +2008,134 @@
         "name": "nở nụ-Photoroom.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/hoa3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/hoa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Hoa.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Hoa.png\",\"extension\":\".png\"}",
+        "name": "Hoa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ3",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2479,55 +2607,6 @@
           ]
         },
         {
-          "name": "nụ",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "nở nụ-Photoroom.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 14,
-                        "y": 0
-                      },
-                      {
-                        "x": 14,
-                        "y": 15
-                      },
-                      {
-                        "x": 0,
-                        "y": 15
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "tốt",
           "useMultipleDirections": false,
           "directions": [
@@ -2577,6 +2656,55 @@
           ]
         },
         {
+          "name": "nụ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "nụ3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "hoa",
           "useMultipleDirections": false,
           "directions": [
@@ -2587,7 +2715,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "hoa",
+                  "image": "hoa9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3283,6 +3411,16 @@
       ],
       "behaviors": [
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        },
+        {
           "name": "Draggable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
@@ -3649,7 +3787,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "nước đổ3",
+                  "image": "nước đổ5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5386,8 +5524,8 @@
           "name": "cao_dat",
           "persistentUuid": "9b810421-daff-4197-85c7-af7fdd112f41",
           "width": 0,
-          "x": 365,
-          "y": 327,
+          "x": 353,
+          "y": 332,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -9729,12 +9867,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "IsCursorOnObject"
+                        "value": "ButtonStates::ButtonFSM::IsPressed"
                       },
                       "parameters": [
                         "cao_dat",
-                        "",
-                        "",
+                        "ButtonFSM",
                         ""
                       ]
                     },
@@ -9858,6 +9995,24 @@
                         "cao_dat",
                         "Draggable",
                         "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "cao_dat",
+                        "Effect",
+                        "\"VienCao\"",
+                        "\"thickness\"",
+                        "1 + abs(sin(TimeFromStart()*3))"
                       ]
                     }
                   ]
@@ -10023,52 +10178,6 @@
                       "parameters": [
                         "cao_dat",
                         "Tween",
-                        "\"Tien\"",
-                        "621",
-                        "414",
-                        "\"easeInQuad\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                      },
-                      "parameters": [
-                        "cao_dat",
-                        "Tween",
-                        "\"Lui\"",
-                        "555",
-                        "407",
-                        "\"easeOutQuad\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                      },
-                      "parameters": [
-                        "cao_dat",
-                        "Tween",
                         "\"Lui\"",
                         "350",
                         "338",
@@ -10096,7 +10205,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "2"
+                        "1"
                       ]
                     },
                     {
@@ -10111,6 +10220,14 @@
                     },
                     {
                       "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
                       },
                       "parameters": [
@@ -10119,14 +10236,6 @@
                         "\"VienCao\"",
                         "\"thickness\"",
                         "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
                       ]
                     },
                     {
@@ -10328,7 +10437,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Nước",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10459,6 +10567,18 @@
                             "Animation",
                             "=",
                             "\"nước đổ\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "=",
+                            "623",
+                            "=",
+                            "363"
                           ]
                         },
                         {
@@ -10710,7 +10830,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Đèn",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10877,6 +10996,18 @@
                                 "=",
                                 "\"tốt\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetXY"
+                              },
+                              "parameters": [
+                                "Cay",
+                                "=",
+                                "584",
+                                "=",
+                                "300"
+                              ]
                             }
                           ]
                         }
@@ -10890,7 +11021,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Lò",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -11035,6 +11165,18 @@
                                 "=",
                                 "\"nụ\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetXY"
+                              },
+                              "parameters": [
+                                "Cay",
+                                "=",
+                                "584",
+                                "=",
+                                "319"
+                              ]
                             }
                           ]
                         }
@@ -11129,6 +11271,18 @@
                             "Animation",
                             "=",
                             "\"hoa\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "=",
+                            "577",
+                            "=",
+                            "308"
                           ]
                         }
                       ]
