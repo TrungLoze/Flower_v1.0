@@ -1800,6 +1800,78 @@
         "name": "lò tắt1",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "lò nhỏ1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lò nhỏ1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lò nhỏ1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lò nhỏ1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lò vừa1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lò vừa1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lò lớn1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lò lớn1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tắt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/tắt.png\"}",
+        "name": "tắt",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tắt2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tắt2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nhỏ.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nhỏ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vừa.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vừa",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lớn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lớn",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4699,7 +4771,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "lò",
           "persistentUuid": "a80a0bc4-cf4c-4c49-a408-16fd94e484b2",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -4708,7 +4780,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "lò tắt1",
+              "name": "tắt",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4718,7 +4790,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "lò tắt1",
+                      "image": "tắt2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4738,16 +4810,163 @@
                             "y": 0
                           },
                           {
-                            "x": 218,
+                            "x": 247,
                             "y": 0
                           },
                           {
-                            "x": 218,
-                            "y": 265
+                            "x": 247,
+                            "y": 300
                           },
                           {
                             "x": 0,
-                            "y": 265
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "nhỏ",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "nhỏ",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 247,
+                            "y": 0
+                          },
+                          {
+                            "x": 247,
+                            "y": 300
+                          },
+                          {
+                            "x": 0,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "vừa",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "vừa",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 247,
+                            "y": 0
+                          },
+                          {
+                            "x": 247,
+                            "y": 300
+                          },
+                          {
+                            "x": 0,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "lớn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "lớn",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 247,
+                            "y": 0
+                          },
+                          {
+                            "x": 247,
+                            "y": 300
+                          },
+                          {
+                            "x": 0,
+                            "y": 300
                           }
                         ]
                       ]
@@ -4781,7 +5000,7 @@
             "objectName": "vi_sinh"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "lò"
           }
         ]
       },
@@ -29795,6 +30014,22 @@
           "x": 587,
           "y": 372,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "lò",
+          "persistentUuid": "f708444f-b133-4f8b-82b9-f89746b3432b",
+          "width": 0,
+          "x": 893,
+          "y": 284,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
