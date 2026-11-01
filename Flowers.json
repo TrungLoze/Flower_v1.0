@@ -4148,8 +4148,8 @@
         {
           "name": "Var_Tut_Cao",
           "persistentUuid": "4e1f9749-b56a-4e3e-a3f9-a5559b4991b2",
-          "type": "number",
-          "value": 1
+          "type": "boolean",
+          "value": true
         }
       ],
       "instances": [
@@ -4179,8 +4179,8 @@
           "name": "cao_dat",
           "persistentUuid": "9b810421-daff-4197-85c7-af7fdd112f41",
           "width": 0,
-          "x": 350,
-          "y": 338,
+          "x": 365,
+          "y": 327,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -10096,242 +10096,444 @@
       "name": "Tutorial",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Tutorial Cào đất",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Var_Tut_Cao",
-                "=",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Var_Tut_Cao",
+                    "True",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Effect",
+                    "\"VienCao\"",
+                    "\"thickness\"",
+                    "1 + abs(sin(TimeFromStart()*3))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Var_Tut_Cao",
+                    "True",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Draggable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Tien\"",
+                    "617",
+                    "398",
+                    "\"easeInOutQuad\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Trai\"",
+                    "-35",
+                    "\"easeInExpo\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "350",
+                    "338",
+                    "\"easeInOutQuad\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Phai\"",
+                    "17",
+                    "\"easeInExpo\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Var_Tut_Cao",
+                    "False",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Draggable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "chau",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Var_Tut_Cao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Draggable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "=",
+                    "-35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Tien\"",
+                    "621",
+                    "414",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "555",
+                    "407",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Tien\"",
+                    "621",
+                    "414",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "555",
+                    "407",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Tien\"",
+                    "621",
+                    "414",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "555",
+                    "407",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "350",
+                    "338",
+                    "\"easeInOutQuad\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Phai\"",
+                    "17",
+                    "\"easeInExpo\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Draggable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Effect",
+                    "\"VienCao\"",
+                    "\"thickness\"",
+                    "0"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-              },
-              "parameters": [
-                "cao_dat",
-                "Effect",
-                "\"VienCao\"",
-                "\"thickness\"",
-                "1 + abs(sin(TimeFromStart()*3))"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "cao_dat",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Var_Tut_Cao",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Tien\"",
-                "617",
-                "398",
-                "\"easeInOutQuad\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Trai\"",
-                "-35",
-                "\"easeInExpo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Lui\"",
-                "350",
-                "338",
-                "\"easeInOutQuad\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Phai\"",
-                "17",
-                "\"easeInExpo\"",
-                "2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Var_Tut_Cao",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "cao_dat",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Var_Tut_Cao",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveTween"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Lui\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveTween"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Tien\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveTween"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Trai\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveTween"
-              },
-              "parameters": [
-                "cao_dat",
-                "Tween",
-                "\"Phai\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "cao_dat",
-                "=",
-                "350",
-                "=",
-                "338"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "cao_dat",
-                "=",
-                "17"
-              ]
-            }
-          ]
+          "parameters": []
         }
       ]
     }
