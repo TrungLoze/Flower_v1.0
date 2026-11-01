@@ -1784,6 +1784,22 @@
         "name": "assets/đèn sáng4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "lò tắt1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lò tắt1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lò tắt1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lò tắt1",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4679,6 +4695,68 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "a80a0bc4-cf4c-4c49-a408-16fd94e484b2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "lò tắt1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "lò tắt1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 218,
+                            "y": 0
+                          },
+                          {
+                            "x": 218,
+                            "y": 265
+                          },
+                          {
+                            "x": 0,
+                            "y": 265
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4701,6 +4779,9 @@
           },
           {
             "objectName": "vi_sinh"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
