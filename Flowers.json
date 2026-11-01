@@ -2000,6 +2000,14 @@
         "name": "hoa",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "nở nụ-Photoroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nở nụ-Photoroom.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2471,7 +2479,7 @@
           ]
         },
         {
-          "name": "héo",
+          "name": "nụ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2481,7 +2489,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "héo9",
+                  "image": "nở nụ-Photoroom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4149,9 +4157,9 @@
       ],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -9624,7 +9632,7 @@
                     "Cay",
                     "Animation",
                     "=",
-                    "\"héo\""
+                    "\"nụ\""
                   ]
                 }
               ]
@@ -11025,7 +11033,7 @@
                                 "Cay",
                                 "Animation",
                                 "=",
-                                "\"héo\""
+                                "\"nụ\""
                               ]
                             }
                           ]
