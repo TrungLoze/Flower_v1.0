@@ -2136,6 +2136,22 @@
         "name": "nụ3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/tốt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tốt",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tốt2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tốt2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2617,7 +2633,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "nở8",
+                  "image": "tốt2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3903,7 +3919,20 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "VienPhan",
+          "doubleParameters": {
+            "padding": 5,
+            "thickness": 0
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Draggable",
@@ -4049,7 +4078,7 @@
       "effects": [
         {
           "effectType": "Outline",
-          "name": "Outline",
+          "name": "VienLo",
           "doubleParameters": {
             "padding": 5,
             "thickness": 0
@@ -9812,7 +9841,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tutorial Cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11004,9 +11032,9 @@
                               "parameters": [
                                 "Cay",
                                 "=",
-                                "584",
+                                "598",
                                 "=",
-                                "300"
+                                "330"
                               ]
                             }
                           ]
@@ -11047,7 +11075,7 @@
                           "parameters": [
                             "lò",
                             "Effect",
-                            "\"Outline\"",
+                            "\"VienLo\"",
                             "\"thickness\"",
                             "1 + abs(sin(TimeFromStart()*3))"
                           ]
@@ -11092,7 +11120,7 @@
                           "parameters": [
                             "lò",
                             "Effect",
-                            "\"Outline\"",
+                            "\"VienLo\"",
                             "\"thickness\"",
                             "0"
                           ]
@@ -11195,7 +11223,6 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -11215,9 +11242,9 @@
                             "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
                           },
                           "parameters": [
-                            "",
+                            "vo_co",
                             "Effect",
-                            "",
+                            "\"VienPhan\"",
                             "\"thickness\"",
                             "1 + abs(sin(TimeFromStart()*3))"
                           ]
@@ -11233,7 +11260,7 @@
                           },
                           "parameters": [
                             "chau",
-                            "huu_co",
+                            "vo_co",
                             "",
                             "",
                             ""
@@ -11250,6 +11277,28 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                          },
+                          "parameters": [
+                            "vo_co",
+                            "Effect",
+                            "\"VienPhan\"",
+                            "\"thickness\"",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Lo",
+                            "False",
+                            ""
+                          ]
+                        },
                         {
                           "type": {
                             "value": "SetXY"
@@ -11282,7 +11331,7 @@
                             "=",
                             "577",
                             "=",
-                            "308"
+                            "295"
                           ]
                         }
                       ]
