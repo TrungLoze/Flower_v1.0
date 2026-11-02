@@ -1740,7 +1740,7 @@
       {
         "file": "assets/Object/Chủ thể13.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Object/Chủ thể13.png\",\"extension\":\".png\"}",
         "name": "assets/Object/Chủ thể13.png",
         "smoothed": true,
         "userAdded": false
@@ -2150,6 +2150,534 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "tốt2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mầm5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mầm5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ trong.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ trong.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ trong2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ trong2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ trong3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ trong3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ trong4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ trong4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nước đổ10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nước đổ10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào xới.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào xới.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/đã cào xới.png\"}",
+        "name": "đã cào xới",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào xới2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào xới2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chủ thể2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chủ thể2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chủ thể3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chủ thể3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chủ thể4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chủ thể4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chủ thể5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chủ thể5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào xới3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào xới3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"đã cào.png\",\"extension\":\".png\"}",
+        "name": "đã cào.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào nè.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào nè.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào nà.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào nà.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/đã cào xới9.png\"}",
+        "name": "đã cào xới9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào nà2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào nà2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào nà3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào nà3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đã cào nà4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đã cào nà4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào xới37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào xới37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào nà.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào nà",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào nà2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào nà2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào nà3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào nà3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào nà4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào nà4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đã cào nà5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đã cào nà5",
         "smoothed": true,
         "userAdded": false
       }
@@ -2584,7 +3112,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "mầm4",
+                  "image": "mầm5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3803,7 +4331,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "nước đổ5",
+                  "image": "nước đổ10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5413,7 +5941,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203709929,
+        "zoomFactor": 1.1726229638177657,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5527,22 +6055,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "chau",
-          "persistentUuid": "de2cccda-bcf3-4fa5-84e5-6832903fd688",
-          "width": 0,
-          "x": 590,
-          "y": 460,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 17,
           "customSize": false,
@@ -5687,11 +6199,95 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "chau",
+          "persistentUuid": "ab827011-fa8e-4b65-bf68-8112255a801c",
+          "width": 0,
+          "x": 590,
+          "y": 460,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "dat",
+          "persistentUuid": "5d950612-5f9a-4d72-aee5-5f66fe0ba9b5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "đã cào nà",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "đã cào nà5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 31
+                          },
+                          {
+                            "x": 97,
+                            "y": 31
+                          },
+                          {
+                            "x": 97,
+                            "y": 68
+                          },
+                          {
+                            "x": 5,
+                            "y": 68
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "dat"
+          }
+        ]
       },
       "events": [
         {
@@ -6258,6 +6854,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "lát cắt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10238,6 +10835,28 @@
                     },
                     {
                       "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "chau",
+                        "dat",
+                        "590",
+                        "433",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetZOrder"
+                      },
+                      "parameters": [
+                        "dat",
+                        "=",
+                        "16"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
@@ -10401,7 +11020,7 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "Var_Tut_Nuoc",
+                        "Var_Tut_Chau",
                         "True",
                         ""
                       ]
@@ -10465,225 +11084,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Tutorial Nước",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BooleanVariable"
-                          },
-                          "parameters": [
-                            "Var_Tut_Nuoc",
-                            "True",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "binh_nc",
-                            "Effect",
-                            "\"VienNuoc\"",
-                            "\"thickness\"",
-                            "1 + abs(sin(TimeFromStart()*3))"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "chau",
-                            "binh_nc",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "MouseButtonFromTextReleased"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Left\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "Var_number_nc",
-                            "<=",
-                            "3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BooleanVariable"
-                          },
-                          "parameters": [
-                            "Var_Tut_Nuoc",
-                            "True",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
-                          },
-                          "parameters": [
-                            "binh_nc",
-                            "Effect",
-                            "\"VienNuoc\"",
-                            "\"thickness\"",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanVariable"
-                          },
-                          "parameters": [
-                            "Var_Tut_Nuoc",
-                            "False",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanVariable"
-                          },
-                          "parameters": [
-                            "Var_Tut_Chau",
-                            "True",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "Var_number_nc",
-                            "+",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "binh_nc",
-                            "Animation",
-                            "=",
-                            "\"nước đổ\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetXY"
-                          },
-                          "parameters": [
-                            "binh_nc",
-                            "=",
-                            "623",
-                            "=",
-                            "363"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "binh_nc",
-                            "Animation",
-                            "=",
-                            "ToString(Var_number_nc + 1)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetXY"
-                          },
-                          "parameters": [
-                            "binh_nc",
-                            "=",
-                            "729",
-                            "=",
-                            "268"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Cay",
-                            "Animation",
-                            "=",
-                            "\"mầm\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetZOrder"
-                          },
-                          "parameters": [
-                            "Cay",
-                            "=",
-                            "chau.ZOrder()+1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetXY"
-                          },
-                          "parameters": [
-                            "Cay",
-                            "=",
-                            "588",
-                            "=",
-                            "405"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Chậu",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10813,7 +11213,7 @@
                             "value": "SetBooleanVariable"
                           },
                           "parameters": [
-                            "Var_Tut_Den",
+                            "Var_Tut_Nuoc",
                             "True",
                             ""
                           ]
@@ -10858,6 +11258,260 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "name": "Tutorial Nước",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Nuoc",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "Effect",
+                            "\"VienNuoc\"",
+                            "\"thickness\"",
+                            "1 + abs(sin(TimeFromStart()*3))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "chau",
+                            "binh_nc",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MouseButtonFromTextReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Var_number_nc",
+                            "<=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Nuoc",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "Effect",
+                            "\"VienNuoc\"",
+                            "\"thickness\"",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Nuoc",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Den",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Var_number_nc",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "Animation",
+                            "=",
+                            "\"nước đổ\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "=",
+                            "623",
+                            "=",
+                            "363"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "Animation",
+                            "=",
+                            "ToString(Var_number_nc + 1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "binh_nc",
+                            "=",
+                            "729",
+                            "=",
+                            "268"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "NewParticlesEmitter",
+                            "636",
+                            "400",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "NewParticlesEmitter2",
+                            "636",
+                            "430",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Flash::Flash::Flash"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "Flash",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "Animation",
+                            "=",
+                            "\"mầm\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "=",
+                            "chau.ZOrder()+2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "=",
+                            "608",
+                            "=",
+                            "431"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
                   "name": "Tutorial Đèn",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -11016,6 +11670,56 @@
                             },
                             {
                               "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "NewParticlesEmitter",
+                                "636",
+                                "400",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "NewParticlesEmitter2",
+                                "636",
+                                "430",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                              },
+                              "parameters": [
+                                "Cay",
+                                "Tween",
+                                "\"len_nuoc\"",
+                                "0.9",
+                                "\"easeInOutQuad\"",
+                                "0.05",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Flash::Flash::Flash"
+                              },
+                              "parameters": [
+                                "Cay",
+                                "Flash",
+                                "0.5",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
@@ -11034,7 +11738,7 @@
                                 "=",
                                 "598",
                                 "=",
-                                "330"
+                                "350"
                               ]
                             }
                           ]
@@ -11185,6 +11889,41 @@
                             },
                             {
                               "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "NewParticlesEmitter",
+                                "636",
+                                "400",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "NewParticlesEmitter2",
+                                "636",
+                                "430",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Flash::Flash::Flash"
+                              },
+                              "parameters": [
+                                "Cay",
+                                "Flash",
+                                "0.5",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
@@ -11201,9 +11940,9 @@
                               "parameters": [
                                 "Cay",
                                 "=",
-                                "584",
+                                "588",
                                 "=",
-                                "319"
+                                "340"
                               ]
                             }
                           ]
@@ -11313,6 +12052,56 @@
                         },
                         {
                           "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "NewParticlesEmitter",
+                            "636",
+                            "430",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "NewParticlesEmitter2",
+                            "636",
+                            "400",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "Tween",
+                            "\"len_nuoc\"",
+                            "0.9",
+                            "\"easeInOutQuad\"",
+                            "0.05",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Flash::Flash::Flash"
+                          },
+                          "parameters": [
+                            "Cay",
+                            "Flash",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
@@ -11329,9 +12118,9 @@
                           "parameters": [
                             "Cay",
                             "=",
-                            "577",
+                            "581",
                             "=",
-                            "295"
+                            "307"
                           ]
                         }
                       ]
