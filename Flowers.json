@@ -5682,7 +5682,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "win",
+      "name": "bang_thong_bao",
       "persistentUuid": "2775a8e4-db1b-46d5-9239-3fb7e5696fa3",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -5807,7 +5807,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "tut_finish",
+      "name": "text_tren",
       "persistentUuid": "f54b52a1-29ec-4bc3-89c9-a1aea98a7a58",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -5895,7 +5895,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "start",
+      "name": "nut_bam_",
       "persistentUuid": "28c9de4f-1dc8-4464-b097-34db0cac85a5",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -6087,19 +6087,19 @@
         "objectName": "hat_giong"
       },
       {
-        "objectName": "win"
+        "objectName": "bang_thong_bao"
       },
       {
         "objectName": "khung_tren"
       },
       {
-        "objectName": "tut_finish"
+        "objectName": "text_tren"
       },
       {
         "objectName": "loi_thoai"
       },
       {
-        "objectName": "start"
+        "objectName": "nut_bam_"
       },
       {
         "objectName": "khung_duoi"
@@ -8534,7 +8534,7 @@
                 "value": "ButtonStates::ButtonFSM::IsPressed"
               },
               "parameters": [
-                "start",
+                "nut_bam_",
                 "ButtonFSM",
                 ""
               ]
@@ -9401,6 +9401,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9438,6 +9439,145 @@
                   "parameters": [
                     "Var_number_cao",
                     "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "=",
+                    "-35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Tien\"",
+                    "621",
+                    "414",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "555",
+                    "407",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Tien\"",
+                    "621",
+                    "414",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "555",
+                    "407",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Lui\"",
+                    "350",
+                    "338",
+                    "\"easeInOutQuad\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                  },
+                  "parameters": [
+                    "cao_dat",
+                    "Tween",
+                    "\"Phai\"",
+                    "17",
+                    "\"easeInExpo\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
                     "1"
                   ]
                 },
@@ -10058,8 +10198,43 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "chau",
+                    "hat_giong",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "432",
+                    "=",
+                    "464"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -10069,6 +10244,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "khoá các ob k dùng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10184,6 +10360,181 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "thua",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"thừa nc\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "nut_bam_",
+                "539",
+                "555",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "nut_bam_",
+                "=",
+                "103"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "nut_bam_",
+                "Text",
+                "=",
+                "\"CHƠI LẠI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "text_tren",
+                "500",
+                "125",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "text_tren",
+                "=",
+                "103"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "text_tren",
+                "Text",
+                "=",
+                "\"THUA CUỘC\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "loi_thoai",
+                "388",
+                "187",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "loi_thoai",
+                "=",
+                "103"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "loi_thoai",
+                "Text",
+                "=",
+                "\"Hạt giống không thể nảy mầm.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsPressed"
+              },
+              "parameters": [
+                "nut_bam_",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level1\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -10507,7 +10858,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Chien thang",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10631,7 +10981,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Thua Cuộc",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10919,7 +11268,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tutorial Cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37423,7 +37771,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "win",
+          "name": "bang_thong_bao",
           "persistentUuid": "52f01e3b-d89c-4c70-9c00-e4ff00765730",
           "width": 0,
           "x": 117,
@@ -37487,7 +37835,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "tut_finish",
+          "name": "text_tren",
           "persistentUuid": "06752458-196d-467c-acb4-74174612c854",
           "width": 0,
           "x": 418,
@@ -37503,7 +37851,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "start",
+          "name": "nut_bam_",
           "persistentUuid": "b60ca9df-83eb-4558-a46b-b5110506bf0b",
           "width": 0,
           "x": 556,
@@ -37645,10 +37993,75 @@
       }
     },
     {
-      "associatedLayout": "",
+      "associatedLayout": "Level1",
       "name": "Lose",
-      "instances": [],
-      "editionSettings": {}
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bang_thong_bao",
+          "persistentUuid": "e46e5634-5aa2-4680-afcb-4db63de3e2ae",
+          "width": 0,
+          "x": 110,
+          "y": 56,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "khung_tren",
+          "persistentUuid": "e058a323-7716-40fe-bcdb-8f66c5ce95d4",
+          "width": 0,
+          "x": 388,
+          "y": 101,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "khung_duoi",
+          "persistentUuid": "6d05eeca-256d-40c2-82d0-101f2ffb7649",
+          "width": 0,
+          "x": 479,
+          "y": 546,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      }
     }
   ]
 }
