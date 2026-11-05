@@ -3320,6 +3320,30 @@
         "name": "phân hữu cơ9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/bìa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bìa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Object/book2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Object/book2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/phân hữu cơ9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/phân hữu cơ9.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5102,7 +5126,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "phân hữu cơ9",
+                  "image": "assets/phân hữu cơ9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7435,7 +7459,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "book2.png",
+                      "image": "Object/book2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7497,7 +7521,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "bìa",
+                      "image": "assets/bìa.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10369,172 +10393,173 @@
           "name": "thua",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "chau",
+                    "Animation",
+                    "=",
+                    "\"thừa nc\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lose\"",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "nut_bam_",
+                    "539",
+                    "555",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "Text",
+                    "=",
+                    "\"CHƠI LẠI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_tren",
+                    "500",
+                    "125",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "text_tren",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "text_tren",
+                    "Text",
+                    "=",
+                    "\"THUA CUỘC\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "loi_thoai",
+                    "388",
+                    "187",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "loi_thoai",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "loi_thoai",
+                    "Text",
+                    "=",
+                    "\"Hạt giống không thể nảy mầm.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level1\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "chau",
-                "Animation",
-                "=",
-                "\"thừa nc\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"Lose\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "nut_bam_",
-                "539",
-                "555",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "nut_bam_",
-                "=",
-                "103"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "nut_bam_",
-                "Text",
-                "=",
-                "\"CHƠI LẠI\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "text_tren",
-                "500",
-                "125",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "text_tren",
-                "=",
-                "103"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "text_tren",
-                "Text",
-                "=",
-                "\"THUA CUỘC\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "loi_thoai",
-                "388",
-                "187",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "loi_thoai",
-                "=",
-                "103"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "loi_thoai",
-                "Text",
-                "=",
-                "\"Hạt giống không thể nảy mầm.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsPressed"
-              },
-              "parameters": [
-                "nut_bam_",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level1\"",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
