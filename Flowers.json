@@ -3260,7 +3260,7 @@
       {
         "file": "assets/xới6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/xới6.png\"}",
         "name": "xới6",
         "smoothed": true,
         "userAdded": false
@@ -3340,7 +3340,7 @@
       {
         "file": "assets/phân hữu cơ9.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/phân hữu cơ9.png\",\"extension\":\".png\"}",
         "name": "assets/phân hữu cơ9.png",
         "smoothed": true,
         "userAdded": false
@@ -3374,6 +3374,214 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "hạt - mầm2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Object/phân_hữu_cơ_đổ.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Object/phân_hữu_cơ_đổ.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Object/phân_hữu_cơ_đổ.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Object/phân_hữu_cơ_đổ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Object/phân_hữu_cơ_đổ2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Object/phân_hữu_cơ_đổ2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Object/phân_hữu_cơ_đổ3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Object/phân_hữu_cơ_đổ3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/đổ7.png\"}",
+        "name": "đổ7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/đổ11.png\"}",
+        "name": "đổ11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Object/phân_vô_vơ_đổ.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Object/phân_vô_vơ_đổ.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Object/phân_hóa_học_đổ.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Object/phân_hóa_học_đổ.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/đổ16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "đổ16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sau gieo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sau gieo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sau gieo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sau gieo",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sau gieo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sau gieo2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sau gieo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "sau gieo.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sau gieo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sau gieo2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sau gieo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sau gieo3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sau gieo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sau gieo4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hạt - mầm3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hạt - mầm3.png\"}",
+        "name": "hạt - mầm3",
         "smoothed": true,
         "userAdded": false
       }
@@ -3753,7 +3961,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -3808,7 +4016,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "hạt - mầm2",
+                  "image": "hạt - mầm3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4723,6 +4931,67 @@
               ]
             }
           ]
+        },
+        {
+          "name": "sau gieo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sau gieo4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 52
+                      },
+                      {
+                        "x": 7,
+                        "y": 8.5
+                      },
+                      {
+                        "x": 92.5,
+                        "y": 8
+                      },
+                      {
+                        "x": 99.5,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 83.5,
+                        "y": 96
+                      },
+                      {
+                        "x": 50,
+                        "y": 105
+                      },
+                      {
+                        "x": 18,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5251,6 +5520,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "đổ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "đổ7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 70
+                      },
+                      {
+                        "x": 1,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5292,7 +5610,7 @@
       ],
       "animations": [
         {
-          "name": "phân bón2",
+          "name": "vô cơ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5351,7 +5669,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "đổ4",
+                  "image": "đổ16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5416,7 +5734,7 @@
       ],
       "animations": [
         {
-          "name": "phân bón3",
+          "name": "vi sinh",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5427,6 +5745,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/phân bón6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "đổ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "đổ15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9134,7 +9501,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690412,
+        "zoomFactor": 4.000106235382676,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -9392,14 +9759,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -9504,7 +9863,7 @@
                         "binh_nc",
                         "Animation",
                         "=",
-                        "\"4\""
+                        "\"3\""
                       ]
                     },
                     {
@@ -10362,6 +10721,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "chau",
+                    "Animation",
+                    "=",
+                    "\"sau gieo\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -10392,6 +10762,16 @@
                     "Var_hat_giong",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Cay",
+                    "=",
+                    "14"
                   ]
                 }
               ]
@@ -10552,9 +10932,58 @@
                     "=",
                     "2"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Cay",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -10564,6 +10993,28 @@
                     "Animation",
                     "=",
                     "\"hạt - mầm\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Cay",
+                    "=",
+                    "16"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Cay",
+                    "=",
+                    "623",
+                    "=",
+                    "453"
                   ]
                 },
                 {
@@ -14264,14 +14715,56 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "huu_co",
+                    "Animation",
+                    "=",
+                    "\"đổ\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetXY"
                   },
                   "parameters": [
                     "huu_co",
                     "=",
-                    "277",
+                    "533",
+                    "=",
+                    "401"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "huu_co",
+                    "=",
+                    "272",
                     "=",
                     "234"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "huu_co",
+                    "Animation",
+                    "=",
+                    "\"phân hữu cơ\""
                   ]
                 },
                 {
@@ -14313,6 +14806,37 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "vi_sinh",
+                    "Animation",
+                    "=",
+                    "\"đổ\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "vi_sinh",
+                    "=",
+                    "544",
+                    "=",
+                    "398"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberObjectVariable"
@@ -14335,6 +14859,17 @@
                     "=",
                     "234"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "vi_sinh",
+                    "Animation",
+                    "=",
+                    "\"vi sinh\""
+                  ]
                 }
               ]
             },
@@ -14366,6 +14901,37 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "vo_co",
+                    "Animation",
+                    "=",
+                    "\"đổ\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "vo_co",
+                    "=",
+                    "522",
+                    "=",
+                    "392"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
@@ -14385,6 +14951,17 @@
                     "344",
                     "=",
                     "235"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "vo_co",
+                    "Animation",
+                    "=",
+                    "\"vô cơ\""
                   ]
                 }
               ]
@@ -17756,7 +18333,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "tut phân bón",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -17877,7 +18453,7 @@
                             "vo_co",
                             "Animation",
                             "=",
-                            "\"phân bón2\""
+                            "\"vô cơ\""
                           ]
                         },
                         {
