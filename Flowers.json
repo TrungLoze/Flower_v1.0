@@ -3728,6 +3728,70 @@
         "name": "NewSprite4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "bình.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bình.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bình2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bình2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "10",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5356,7 +5420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "1",
+                  "image": "8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5373,19 +5437,19 @@
                     [
                       {
                         "x": 1,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 1
+                        "x": 89,
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 89
+                        "x": 89,
+                        "y": 100
                       },
                       {
                         "x": 1,
-                        "y": 89
+                        "y": 100
                       }
                     ]
                   ]
@@ -5405,7 +5469,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "2",
+                  "image": "10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5422,19 +5486,19 @@
                     [
                       {
                         "x": 1,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 1
+                        "x": 89,
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 89
+                        "x": 89,
+                        "y": 100
                       },
                       {
                         "x": 1,
-                        "y": 89
+                        "y": 100
                       }
                     ]
                   ]
@@ -5471,19 +5535,19 @@
                     [
                       {
                         "x": 1,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 1
+                        "x": 89,
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 89
+                        "x": 89,
+                        "y": 100
                       },
                       {
                         "x": 1,
-                        "y": 89
+                        "y": 100
                       }
                     ]
                   ]
@@ -5520,19 +5584,19 @@
                     [
                       {
                         "x": 1,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 1
+                        "x": 89,
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 89
+                        "x": 89,
+                        "y": 100
                       },
                       {
                         "x": 1,
-                        "y": 89
+                        "y": 100
                       }
                     ]
                   ]
@@ -5569,19 +5633,19 @@
                     [
                       {
                         "x": 1,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 1
+                        "x": 89,
+                        "y": 0
                       },
                       {
-                        "x": 79,
-                        "y": 89
+                        "x": 89,
+                        "y": 100
                       },
                       {
                         "x": 1,
-                        "y": 89
+                        "y": 100
                       }
                     ]
                   ]
@@ -8784,8 +8848,8 @@
           "name": "binh_nc",
           "persistentUuid": "c0380dc2-9319-4ff5-98b9-c852ad312763",
           "width": 0,
-          "x": 729,
-          "y": 268,
+          "x": 730,
+          "y": 257,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
