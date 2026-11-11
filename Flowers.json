@@ -7076,9 +7076,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -7272,9 +7272,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         },
         {
           "name": "Tween",
@@ -7344,9 +7344,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         },
         {
           "name": "Tween",
@@ -7416,9 +7416,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         },
         {
           "name": "Tween",
@@ -7488,9 +7488,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         },
         {
           "name": "Tween",
@@ -18955,10 +18955,21 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
+                    "lò",
+                    "Var_muc_do",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
                     "vo_co",
                     "Var_Phan",
                     "=",
-                    "1"
+                    "2"
                   ]
                 },
                 {
@@ -19124,7 +19135,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thua",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19606,7 +19616,7 @@
                         "vo_co",
                         "Var_Phan",
                         ">",
-                        "1"
+                        "2"
                       ]
                     }
                   ]
@@ -20287,72 +20297,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "La_heo",
-          "persistentUuid": "293c07c5-3e5e-4de9-9038-cada4fe57b3b",
-          "width": 0,
-          "x": 656,
-          "y": 427,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "La_heo2",
-          "persistentUuid": "24dbdba6-dd2c-4ecf-b390-07450bce009c",
-          "width": 0,
-          "x": 657,
-          "y": 338,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "La_heo3",
-          "persistentUuid": "d8df453a-3d2d-4c7e-99f5-8f484c195c5c",
-          "width": 0,
-          "x": 532,
-          "y": 376,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "La_heo4",
-          "persistentUuid": "591fb4a7-9d25-421d-b261-f8d26d794620",
-          "width": 0,
-          "x": 529,
-          "y": 254,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -20424,7 +20368,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "nước",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21161,7 +21104,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "lát cắt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21784,6 +21726,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "lá úa",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21856,6 +21799,91 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
+              "name": "Xuất hiện",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SceneJustBegins"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "La_heo",
+                        "656",
+                        "427",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "La_heo2",
+                        "657",
+                        "338",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "La_heo3",
+                        "532",
+                        "376",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "La_heo4",
+                        "529",
+                        "254",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
               "name": "Cắt lá",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21885,11 +21913,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceTowardObject"
+                        "value": "AddForceTowardPosition"
                       },
                       "parameters": [
                         "La_heo",
-                        "Line_La_Roi",
+                        "650",
+                        "530",
                         "50",
                         "1"
                       ]
@@ -21921,11 +21950,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceTowardObject"
+                        "value": "AddForceTowardPosition"
                       },
                       "parameters": [
                         "La_heo2",
-                        "Line_La_Roi",
+                        "750",
+                        "530",
                         "50",
                         "1"
                       ]
@@ -21957,11 +21987,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceTowardObject"
+                        "value": "AddForceTowardPosition"
                       },
                       "parameters": [
                         "La_heo3",
-                        "Line_La_Roi",
+                        "550",
+                        "530",
                         "50",
                         "1"
                       ]
@@ -21993,11 +22024,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceTowardObject"
+                        "value": "AddForceTowardPosition"
                       },
                       "parameters": [
                         "La_heo4",
-                        "Line_La_Roi",
+                        "450",
+                        "530",
                         "50",
                         "1"
                       ]
@@ -22012,6 +22044,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Kéo lá",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22172,6 +22205,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Vứt lá",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22451,7 +22485,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22485,10 +22518,10 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "vo_co",
-                    "Var_Phan",
+                    "lò",
+                    "Var_muc_do",
                     "=",
-                    "1"
+                    "2"
                   ]
                 },
                 {
@@ -22496,7 +22529,7 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "huu_co",
+                    "vo_co",
                     "Var_Phan",
                     "=",
                     "1"
@@ -22512,7 +22545,7 @@
                     "Cay",
                     "Animation",
                     "=",
-                    "\"nụ\""
+                    "\"hoa\""
                   ]
                 },
                 {
@@ -22654,7 +22687,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thua",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23114,7 +23146,7 @@
                         "huu_co",
                         "Var_Phan",
                         ">",
-                        "1"
+                        "0"
                       ]
                     },
                     {
