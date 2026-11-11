@@ -12846,14 +12846,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -17515,7 +17507,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "nước",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21783,14 +21774,6 @@
                     "Draggable",
                     "no"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Line_La_Roi"
-                  ]
                 }
               ]
             },
@@ -23660,7 +23643,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Create Level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50581,6 +50563,7 @@
           "customSize": true,
           "depth": 1,
           "height": 28,
+          "hidden": true,
           "keepRatio": true,
           "layer": "",
           "name": "Line_La_Roi",
