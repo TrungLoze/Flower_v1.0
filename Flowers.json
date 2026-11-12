@@ -1748,7 +1748,7 @@
       {
         "file": "assets/thừa nc2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/thừa nc2.png\",\"extension\":\".png\"}",
         "name": "assets/thừa nc2.png",
         "smoothed": true,
         "userAdded": false
@@ -3276,7 +3276,7 @@
       {
         "file": "assets/bth6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bth6.png\"}",
         "name": "bth6",
         "smoothed": true,
         "userAdded": false
@@ -3788,7 +3788,7 @@
       {
         "file": "assets/10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/10.png\"}",
         "name": "10",
         "smoothed": true,
         "userAdded": false
@@ -3980,7 +3980,7 @@
       {
         "file": "assets/giống đổ8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/giống đổ8.png\"}",
         "name": "giống đổ8",
         "smoothed": true,
         "userAdded": false
@@ -4004,8 +4004,272 @@
       {
         "file": "assets/mầm7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/mầm7.png\"}",
         "name": "mầm7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bình9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bình",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bình10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bình2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "chưa xới.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chưa xới.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "chưa xới2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chưa xới2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/chưa xới.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chưa xới",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "chưa xới3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chưa xới3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bth7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bth7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2aOboRC653WrI51UmBdKJtYmbkT3GwRGZ6JLAzcu2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "2aOboRC653WrI51UmBdKJtYmbkT3GwRGZ6JLAzcu2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "giống đổ4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "giống đổ4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "giống đổ5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "giống đổ5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ hạt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ hạt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ hạt (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ hạt (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "màu nhạt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "màu nhạt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bth8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bth8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bth9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bth9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5 level đầu/hướng dương 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5 level đầu/hướng dương 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tốt3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tốt3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5 level đầu/hướng dương 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5 level đầu/hướng dương 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5 level đầu/hướng dương 4-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5 level đầu/hướng dương 4-.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hoa10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hoa10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "màu nhạt2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "màu nhạt2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bth10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bth10",
         "smoothed": true,
         "userAdded": false
       }
@@ -4353,7 +4617,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Cay",
+      "name": "hoa_huong_duong",
       "persistentUuid": "5ad60ea5-4c0a-4234-94fc-5eb48d3297ec",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -4528,7 +4792,7 @@
           ]
         },
         {
-          "name": "tốt",
+          "name": "cây non",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4538,7 +4802,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tốt2",
+                  "image": "tốt3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4587,7 +4851,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "nụ3",
+                  "image": "nụ6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4626,7 +4890,7 @@
           ]
         },
         {
-          "name": "hoa",
+          "name": "hoa sắp nở",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4636,7 +4900,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "hoa9",
+                  "image": "hoa10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5184,7 +5448,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bth6",
+                  "image": "bth10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5734,7 +5998,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "3",
+                  "image": "12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5783,7 +6047,56 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "4",
+                  "image": "14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 89,
+                        "y": 0
+                      },
+                      {
+                        "x": 89,
+                        "y": 100
+                      },
+                      {
+                        "x": 1,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bình2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6596,7 +6909,7 @@
           ]
         },
         {
-          "name": "giống đổ",
+          "name": "đổ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6606,7 +6919,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "giống đổ8",
+                  "image": "giống đổ12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7877,7 +8190,7 @@
         "objectName": "Backgroud"
       },
       {
-        "objectName": "Cay"
+        "objectName": "hoa_huong_duong"
       },
       {
         "objectName": "NewParticlesEmitter"
@@ -9204,7 +9517,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Cay",
+          "name": "hoa_huong_duong",
           "persistentUuid": "f9078b26-72ea-40bf-9d67-e19e266876c9",
           "width": 0,
           "x": 631,
@@ -10150,7 +10463,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Flash",
                     "1",
                     ""
@@ -10167,7 +10480,7 @@
                     "value": "Flash::Flash::IsFlashing"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Flash",
                     ""
                   ]
@@ -10390,10 +10703,10 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
-                    "\"hoa\""
+                    "\"hoa sắp nở\""
                   ]
                 }
               ],
@@ -11058,6 +11371,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11327,6 +11641,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11572,6 +11887,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "lát cắt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11883,7 +12199,7 @@
                     "hat_giong",
                     "Animation",
                     "=",
-                    "\"giống đổ\""
+                    "\"đổ\""
                   ]
                 },
                 {
@@ -11893,9 +12209,9 @@
                   "parameters": [
                     "hat_giong",
                     "=",
-                    "528",
+                    "508",
                     "=",
-                    "412"
+                    "406"
                   ]
                 },
                 {
@@ -11905,7 +12221,7 @@
                   "parameters": [
                     "hat_giong",
                     "=",
-                    "30"
+                    "42"
                   ]
                 },
                 {
@@ -11966,7 +12282,7 @@
                   },
                   "parameters": [
                     "",
-                    "Cay",
+                    "hoa_huong_duong",
                     "632",
                     "463",
                     ""
@@ -11999,7 +12315,7 @@
                     "value": "SetZOrder"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "=",
                     "14"
                   ]
@@ -12208,7 +12524,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Flash",
                     "0.5",
                     ""
@@ -12219,7 +12535,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
                     "\"hạt - mầm\""
@@ -12230,7 +12546,7 @@
                     "value": "SetZOrder"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "=",
                     "16"
                   ]
@@ -12240,7 +12556,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "=",
                     "620",
                     "=",
@@ -13040,8 +13356,8 @@
           "name": "binh_nc",
           "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
           "width": 0,
-          "x": 729,
-          "y": 268,
+          "x": 724,
+          "y": 257,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -13089,8 +13405,8 @@
           "name": "vo_co",
           "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
           "width": 0,
-          "x": 344,
-          "y": 235,
+          "x": 337,
+          "y": 229,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -13174,7 +13490,7 @@
               },
               "parameters": [
                 "",
-                "Cay",
+                "hoa_huong_duong",
                 "632",
                 "463",
                 ""
@@ -13185,7 +13501,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Cay",
+                "hoa_huong_duong",
                 "Animation",
                 "=",
                 "\"hạt - mầm\""
@@ -13196,11 +13512,22 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "Cay",
+                "hoa_huong_duong",
                 "=",
                 "620",
                 "=",
                 "453"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"xới\""
               ]
             }
           ]
@@ -13316,9 +13643,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     }
                   ]
@@ -13898,6 +14225,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "lát cắt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14420,7 +14748,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Flash",
                     "0.5",
                     ""
@@ -14431,7 +14759,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
                     "\"mầm\""
@@ -14442,7 +14770,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "=",
                     "622",
                     "=",
@@ -15368,8 +15696,8 @@
           "name": "binh_nc",
           "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
           "width": 0,
-          "x": 729,
-          "y": 268,
+          "x": 724,
+          "y": 257,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -15502,7 +15830,7 @@
               },
               "parameters": [
                 "",
-                "Cay",
+                "hoa_huong_duong",
                 "632",
                 "463",
                 ""
@@ -15513,10 +15841,33 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Cay",
+                "hoa_huong_duong",
                 "Animation",
                 "=",
                 "\"mầm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "=",
+                "622",
+                "=",
+                "455"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"xới\""
               ]
             }
           ]
@@ -15556,14 +15907,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -15640,9 +15983,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     }
                   ]
@@ -15680,9 +16023,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     },
                     {
@@ -16687,18 +17030,79 @@
                     "=",
                     "2"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
-                    "\"tốt\""
+                    "\"cây non\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "=",
+                    "597",
+                    "=",
+                    "396"
                   ]
                 },
                 {
@@ -17788,8 +18192,8 @@
           "name": "binh_nc",
           "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
           "width": 0,
-          "x": 729,
-          "y": 268,
+          "x": 724,
+          "y": 257,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -17837,8 +18241,8 @@
           "name": "vo_co",
           "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
           "width": 0,
-          "x": 344,
-          "y": 235,
+          "x": 336,
+          "y": 226,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -17939,7 +18343,7 @@
               },
               "parameters": [
                 "",
-                "Cay",
+                "hoa_huong_duong",
                 "632",
                 "463",
                 ""
@@ -17950,10 +18354,22 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Cay",
+                "hoa_huong_duong",
                 "Animation",
                 "=",
-                "\"tốt\""
+                "\"cây non\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "=",
+                "597",
+                "=",
+                "396"
               ]
             }
           ]
@@ -18069,9 +18485,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     }
                   ]
@@ -18109,9 +18525,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     },
                     {
@@ -18407,7 +18823,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18632,7 +19047,7 @@
                     "vo_co",
                     "Animation",
                     "=",
-                    "\"đổ\""
+                    "\"npk đổ\""
                   ]
                 },
                 {
@@ -18673,9 +19088,9 @@
                   "parameters": [
                     "vo_co",
                     "=",
-                    "344",
+                    "336",
                     "=",
-                    "235"
+                    "226"
                   ]
                 },
                 {
@@ -18686,7 +19101,7 @@
                     "vo_co",
                     "Animation",
                     "=",
-                    "\"vô cơ\""
+                    "\"npk con cò\""
                   ]
                 }
               ]
@@ -19437,10 +19852,22 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
                     "\"nụ\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "=",
+                    "588",
+                    "=",
+                    "327"
                   ]
                 },
                 {
@@ -20640,8 +21067,8 @@
           "name": "binh_nc",
           "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
           "width": 0,
-          "x": 729,
-          "y": 268,
+          "x": 724,
+          "y": 257,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -20689,8 +21116,8 @@
           "name": "vo_co",
           "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
           "width": 0,
-          "x": 344,
-          "y": 235,
+          "x": 336,
+          "y": 226,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -20791,7 +21218,7 @@
               },
               "parameters": [
                 "",
-                "Cay",
+                "hoa_huong_duong",
                 "632",
                 "463",
                 ""
@@ -20802,10 +21229,22 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Cay",
+                "hoa_huong_duong",
                 "Animation",
                 "=",
                 "\"nụ\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "=",
+                "588",
+                "=",
+                "327"
               ]
             }
           ]
@@ -20921,9 +21360,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     }
                   ]
@@ -20961,9 +21400,9 @@
                       "parameters": [
                         "binh_nc",
                         "=",
-                        "729",
+                        "724",
                         "=",
-                        "268"
+                        "257"
                       ]
                     },
                     {
@@ -22981,10 +23420,22 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
-                    "\"hoa\""
+                    "\"hoa sắp nở\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "=",
+                    "597",
+                    "=",
+                    "327"
                   ]
                 },
                 {
@@ -24473,10 +24924,10 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
-                    "\"tốt\""
+                    "\"cây non\""
                   ]
                 }
               ]
@@ -24503,7 +24954,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Cay",
+                    "hoa_huong_duong",
                     "Animation",
                     "=",
                     "\"nụ\""
@@ -25560,7 +26011,7 @@
                             "value": "Flash::Flash::Flash"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "Flash",
                             "0.5",
                             ""
@@ -25571,7 +26022,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "Animation",
                             "=",
                             "\"mầm\""
@@ -25582,7 +26033,7 @@
                             "value": "SetZOrder"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "=",
                             "chau.ZOrder()+2"
                           ]
@@ -25592,7 +26043,7 @@
                             "value": "SetXY"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "=",
                             "608",
                             "=",
@@ -25794,7 +26245,7 @@
                                 "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "Tween",
                                 "\"len_nuoc\"",
                                 "0.9",
@@ -25809,7 +26260,7 @@
                                 "value": "Flash::Flash::Flash"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "Flash",
                                 "0.5",
                                 ""
@@ -25820,10 +26271,10 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "Animation",
                                 "=",
-                                "\"tốt\""
+                                "\"cây non\""
                               ]
                             },
                             {
@@ -25831,7 +26282,7 @@
                                 "value": "SetXY"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "=",
                                 "598",
                                 "=",
@@ -26014,7 +26465,7 @@
                                 "value": "Flash::Flash::Flash"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "Flash",
                                 "0.5",
                                 ""
@@ -26025,7 +26476,7 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "Animation",
                                 "=",
                                 "\"nụ\""
@@ -26036,7 +26487,7 @@
                                 "value": "SetXY"
                               },
                               "parameters": [
-                                "Cay",
+                                "hoa_huong_duong",
                                 "=",
                                 "588",
                                 "=",
@@ -26219,7 +26670,7 @@
                             "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "Tween",
                             "\"len_nuoc\"",
                             "0.9",
@@ -26234,7 +26685,7 @@
                             "value": "Flash::Flash::Flash"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "Flash",
                             "0.5",
                             ""
@@ -26245,10 +26696,10 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "Animation",
                             "=",
-                            "\"hoa\""
+                            "\"hoa sắp nở\""
                           ]
                         },
                         {
@@ -26256,7 +26707,7 @@
                             "value": "SetXY"
                           },
                           "parameters": [
-                            "Cay",
+                            "hoa_huong_duong",
                             "=",
                             "581",
                             "=",
