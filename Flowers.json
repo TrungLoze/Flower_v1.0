@@ -1956,7 +1956,7 @@
       {
         "file": "assets/túi hạt giống tutorial-Photoroom.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/túi hạt giống tutorial-Photoroom.png\"}",
         "name": "túi hạt giống tutorial-Photoroom",
         "smoothed": true,
         "userAdded": false
@@ -2148,7 +2148,7 @@
       {
         "file": "assets/tốt2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/tốt2.png\"}",
         "name": "tốt2",
         "smoothed": true,
         "userAdded": false
@@ -3792,6 +3792,222 @@
         "name": "10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "hướng dương.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hướng dương.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "hướng dương2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hướng dương2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hướng dương2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hướng dương2.png\"}",
+        "name": "hướng dương2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "npk con cò.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "npk con cò.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npk con cò.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "npk con cò",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "npk con cò2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "npk con cò2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npk con cò2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "npk con cò2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "npk đổ.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "npk đổ.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npk đổ.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "npk đổ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/npk đổ2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/npk đổ2.png\"}",
+        "name": "npk đổ2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2aOboRC653WrI51UmBdKJtYmbkT3GwRGZ6JLAzcu.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "2aOboRC653WrI51UmBdKJtYmbkT3GwRGZ6JLAzcu.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "giống đổ.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "giống đổ.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ có hạt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "đổ có hạt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "đổ có hạt2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"đổ có hạt2.png\",\"extension\":\".png\"}",
+        "name": "đổ có hạt2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/giống đổ5.png\"}",
+        "name": "giống đổ5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "giống đổ2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "giống đổ2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/giống đổ7.png\"}",
+        "name": "giống đổ7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "giống đổ3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "giống đổ3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/giống đổ8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "giống đổ8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5 level đầu/hướng dương 1-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5 level đầu/hướng dương 1-.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mầm6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mầm6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mầm7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mầm7",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4273,7 +4489,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "mầm5",
+                  "image": "mầm7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5818,7 +6034,7 @@
       ],
       "animations": [
         {
-          "name": "vô cơ",
+          "name": "npk con cò",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5828,7 +6044,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/phân bón5.png",
+                  "image": "npk con cò2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5848,16 +6064,16 @@
                         "y": 0
                       },
                       {
-                        "x": 61,
+                        "x": 75,
                         "y": 0
                       },
                       {
-                        "x": 61,
-                        "y": 70
+                        "x": 75,
+                        "y": 78
                       },
                       {
                         "x": 0,
-                        "y": 70
+                        "y": 78
                       }
                     ]
                   ]
@@ -5867,7 +6083,7 @@
           ]
         },
         {
-          "name": "đổ",
+          "name": "npk đổ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5877,7 +6093,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "đổ16",
+                  "image": "npk đổ2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5897,16 +6113,16 @@
                         "y": 0
                       },
                       {
-                        "x": 61,
+                        "x": 75,
                         "y": 0
                       },
                       {
-                        "x": 61,
-                        "y": 70
+                        "x": 75,
+                        "y": 78
                       },
                       {
                         "x": 0,
-                        "y": 70
+                        "y": 78
                       }
                     ]
                   ]
@@ -6291,6 +6507,7 @@
       "variables": [
         {
           "name": "Variable",
+          "persistentUuid": "91437418-7124-4036-ac0f-5f62d6735947",
           "type": "number",
           "value": 0
         }
@@ -6318,7 +6535,7 @@
       ],
       "animations": [
         {
-          "name": "túi hạt giống tutorial-Photoroom",
+          "name": "hạt hướng dương",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6328,7 +6545,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "túi hạt giống tutorial-Photoroom",
+                  "image": "hướng dương2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6373,6 +6590,36 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "giống đổ",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "giống đổ8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -8708,7 +8955,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513987,
+        "zoomFactor": 0.5843784410740942,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -10429,7 +10676,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5804687500000014,
+        "zoomFactor": 0.929687500000002,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -10515,8 +10762,8 @@
           "name": "hat_giong",
           "persistentUuid": "830f53c2-5c45-41c9-a086-3c4628b1a3e7",
           "width": 0,
-          "x": 432,
-          "y": 464,
+          "x": 434,
+          "y": 469,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -10531,8 +10778,8 @@
           "name": "binh_nc",
           "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
           "width": 0,
-          "x": 729,
-          "y": 268,
+          "x": 724,
+          "y": 257,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -10580,8 +10827,8 @@
           "name": "vo_co",
           "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
           "width": 0,
-          "x": 344,
-          "y": 235,
+          "x": 337,
+          "y": 229,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -10745,7 +10992,7 @@
                         "=",
                         "729",
                         "=",
-                        "268"
+                        "257"
                       ]
                     }
                   ]
@@ -11080,7 +11327,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11634,6 +11880,80 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
+                    "hat_giong",
+                    "Animation",
+                    "=",
+                    "\"giống đổ\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "528",
+                    "=",
+                    "412"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "Animation",
+                    "=",
+                    "\"hạt hướng dương\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "434",
+                    "=",
+                    "469"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
                     "chau",
                     "Animation",
                     "=",
@@ -11922,7 +12242,7 @@
                   "parameters": [
                     "Cay",
                     "=",
-                    "623",
+                    "620",
                     "=",
                     "453"
                   ]
@@ -12600,7 +12920,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690412,
+        "zoomFactor": 2.276247839383715,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12869,6 +13189,18 @@
                 "Animation",
                 "=",
                 "\"hạt - mầm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Cay",
+                "=",
+                "620",
+                "=",
+                "453"
               ]
             }
           ]
@@ -13321,7 +13653,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14043,9 +14374,58 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Cay",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -14055,6 +14435,18 @@
                     "Animation",
                     "=",
                     "\"mầm\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Cay",
+                    "=",
+                    "622",
+                    "=",
+                    "455"
                   ]
                 },
                 {
@@ -15025,8 +15417,8 @@
           "name": "vo_co",
           "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
           "width": 0,
-          "x": 344,
-          "y": 235,
+          "x": 336,
+          "y": 226,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -15809,7 +16201,7 @@
                     "vo_co",
                     "Animation",
                     "=",
-                    "\"đổ\""
+                    "\"npk đổ\""
                   ]
                 },
                 {
@@ -15850,9 +16242,9 @@
                   "parameters": [
                     "vo_co",
                     "=",
-                    "344",
+                    "336",
                     "=",
-                    "235"
+                    "226"
                   ]
                 },
                 {
@@ -15863,7 +16255,7 @@
                     "vo_co",
                     "Animation",
                     "=",
-                    "\"vô cơ\""
+                    "\"npk con cò\""
                   ]
                 }
               ]
