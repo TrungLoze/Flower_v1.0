@@ -4272,6 +4272,22 @@
         "name": "bth10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "level 1-5/Rustic Pixel-Art Wooden Trash Bin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/Rustic Pixel-Art Wooden Trash Bin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -7779,7 +7795,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "5 level đầu/Rustic Pixel-Art Wooden Trash Bin.png",
+                  "image": "NewSprite5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -21698,7 +21714,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21923,7 +21938,7 @@
                     "vo_co",
                     "Animation",
                     "=",
-                    "\"đổ\""
+                    "\"npk đổ\""
                   ]
                 },
                 {
@@ -21964,9 +21979,9 @@
                   "parameters": [
                     "vo_co",
                     "=",
-                    "344",
+                    "336",
                     "=",
-                    "235"
+                    "226"
                   ]
                 },
                 {
@@ -21977,7 +21992,7 @@
                     "vo_co",
                     "Animation",
                     "=",
-                    "\"vô cơ\""
+                    "\"npk con cò\""
                   ]
                 }
               ]
