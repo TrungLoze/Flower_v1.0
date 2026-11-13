@@ -4244,7 +4244,7 @@
       {
         "file": "assets/hoa10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hoa10.png\"}",
         "name": "hoa10",
         "smoothed": true,
         "userAdded": false
@@ -4252,7 +4252,7 @@
       {
         "file": "assets/nụ6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/nụ6.png\"}",
         "name": "nụ6",
         "smoothed": true,
         "userAdded": false
@@ -4286,6 +4286,166 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/hướng dương 5-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/hướng dương 5-.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nở9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nở9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nở10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nở10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lá bị úa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lá bị úa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lá úa 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lá úa 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lá úa 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lá úa 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lá úa 4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"lá úa 4.png\",\"extension\":\".png\"}",
+        "name": "lá úa 4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nở11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nở11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nở12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nở12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/hướng dương 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/hướng dương 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "nụ k lá.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nụ k lá.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ k lá.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ k lá",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nụ k lá2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nụ k lá2",
         "smoothed": true,
         "userAdded": false
       }
@@ -4906,6 +5066,55 @@
           ]
         },
         {
+          "name": "nụ k lá",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "nụ k lá2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "hoa sắp nở",
           "useMultipleDirections": false,
           "directions": [
@@ -4917,6 +5126,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "hoa10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nở",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "nở12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7811,24 +8069,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 277,
-                        "y": 303.5
+                        "x": 25.5,
+                        "y": 27.5
                       },
                       {
-                        "x": 641,
-                        "y": 234.5
+                        "x": 53,
+                        "y": 20
                       },
                       {
-                        "x": 1010,
-                        "y": 310.5
+                        "x": 81.5,
+                        "y": 28
                       },
                       {
-                        "x": 927,
-                        "y": 1073
+                        "x": 76,
+                        "y": 87
                       },
                       {
-                        "x": 360,
-                        "y": 1059
+                        "x": 52,
+                        "y": 91
+                      },
+                      {
+                        "x": 29,
+                        "y": 87
                       }
                     ]
                   ]
@@ -7933,7 +8195,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7953,16 +8215,16 @@
                         "y": 0
                       },
                       {
-                        "x": 63,
+                        "x": 43,
                         "y": 0
                       },
                       {
-                        "x": 63,
-                        "y": 64
+                        "x": 43,
+                        "y": 50
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 50
                       }
                     ]
                   ]
@@ -8005,7 +8267,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8025,16 +8287,16 @@
                         "y": 0
                       },
                       {
-                        "x": 63,
+                        "x": 43,
                         "y": 0
                       },
                       {
-                        "x": 63,
-                        "y": 64
+                        "x": 43,
+                        "y": 50
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 50
                       }
                     ]
                   ]
@@ -8077,7 +8339,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8097,16 +8359,16 @@
                         "y": 0
                       },
                       {
-                        "x": 63,
+                        "x": 35,
                         "y": 0
                       },
                       {
-                        "x": 63,
-                        "y": 64
+                        "x": 35,
+                        "y": 40
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 40
                       }
                     ]
                   ]
@@ -8149,7 +8411,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8169,16 +8431,16 @@
                         "y": 0
                       },
                       {
-                        "x": 63,
+                        "x": 36,
                         "y": 0
                       },
                       {
-                        "x": 63,
-                        "y": 64
+                        "x": 36,
+                        "y": 42
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 42
                       }
                     ]
                   ]
@@ -17237,7 +17499,7 @@
                     "loi_thoai",
                     "Text",
                     "=",
-                    "\"Trồng thành công giai đoạn hạt - mầm.\""
+                    "\"Trồng thành công giai đoạn cây non.\""
                   ]
                 },
                 {
@@ -18386,6 +18648,17 @@
                 "597",
                 "=",
                 "396"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"xới\""
               ]
             }
           ]
@@ -19865,6 +20138,49 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -20002,7 +20318,7 @@
                     "loi_thoai",
                     "Text",
                     "=",
-                    "\"Trồng thành công giai đoạn hạt - mầm.\""
+                    "\"Trồng thành công giai đoạn cây nụ.\""
                   ]
                 },
                 {
@@ -20981,7 +21297,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690412,
+        "zoomFactor": 0.5843784410740942,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -21261,6 +21577,17 @@
                 "588",
                 "=",
                 "327"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"xới\""
               ]
             }
           ]
@@ -22725,9 +23052,19 @@
                       "parameters": [
                         "",
                         "La_heo",
-                        "656",
-                        "427",
+                        "593",
+                        "409",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "La_heo",
+                        "=",
+                        "15\n"
                       ]
                     },
                     {
@@ -22737,8 +23074,8 @@
                       "parameters": [
                         "",
                         "La_heo2",
-                        "657",
-                        "338",
+                        "643",
+                        "431",
                         ""
                       ]
                     },
@@ -22749,8 +23086,8 @@
                       "parameters": [
                         "",
                         "La_heo3",
-                        "532",
-                        "376",
+                        "600",
+                        "445",
                         ""
                       ]
                     },
@@ -22761,9 +23098,19 @@
                       "parameters": [
                         "",
                         "La_heo4",
-                        "529",
-                        "254",
+                        "648",
+                        "399",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "La_heo4",
+                        "=",
+                        "343"
                       ]
                     }
                   ]
@@ -22781,6 +23128,74 @@
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "keo",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "keo",
+                        "=",
+                        "300",
+                        "=",
+                        "326"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "La_heo",
+                        "<=",
+                        "400"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hoa_huong_duong",
+                        "Animation",
+                        "=",
+                        "\"nụ k lá\""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -23378,6 +23793,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23427,9 +23843,58 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -23438,7 +23903,7 @@
                     "hoa_huong_duong",
                     "Animation",
                     "=",
-                    "\"hoa sắp nở\""
+                    "\"nở\""
                   ]
                 },
                 {
@@ -23448,9 +23913,9 @@
                   "parameters": [
                     "hoa_huong_duong",
                     "=",
-                    "597",
+                    "585",
                     "=",
-                    "327"
+                    "326"
                   ]
                 },
                 {
@@ -23569,7 +24034,7 @@
                     "loi_thoai",
                     "Text",
                     "=",
-                    "\"Trồng thành công giai đoạn hạt - mầm.\""
+                    "\"Bạn đã hoàn thành cây hoa đầu tiên\""
                   ]
                 },
                 {
