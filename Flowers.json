@@ -21597,6 +21597,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "nước",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22041,6 +22042,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22332,6 +22334,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "lát cắt",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22954,7 +22957,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "lá úa",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23225,6 +23227,43 @@
                       },
                       "parameters": [
                         "La_heo",
+                        "575",
+                        "530",
+                        "50",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "La_heo2",
+                        "keo",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceTowardPosition"
+                      },
+                      "parameters": [
+                        "La_heo2",
                         "650",
                         "530",
                         "50",
@@ -23241,43 +23280,6 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "La_heo2",
-                        "keo",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceTowardPosition"
-                      },
-                      "parameters": [
-                        "La_heo2",
-                        "750",
-                        "530",
-                        "50",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
                         "La_heo3",
                         "keo",
                         "",
@@ -23299,7 +23301,7 @@
                       },
                       "parameters": [
                         "La_heo3",
-                        "550",
+                        "600",
                         "530",
                         "50",
                         "1"
@@ -23336,7 +23338,7 @@
                       },
                       "parameters": [
                         "La_heo4",
-                        "450",
+                        "675",
                         "530",
                         "50",
                         "1"
@@ -23793,7 +23795,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25479,6 +25480,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tutorial Cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25947,6 +25949,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tutorial Hạt Giống",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26088,6 +26091,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tutorial Next",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26113,6 +26117,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Tutorial Chậu",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -26287,6 +26292,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Tutorial Nước",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -26540,6 +26546,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Tutorial Đèn",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -26986,6 +26993,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "tut phân bón",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -27203,6 +27211,11 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
