@@ -4480,6 +4480,22 @@
         "name": "đổ17",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "khung lời nhân vật.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "khung lời nhân vật.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/khung lời nhân vật2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "khung lời nhân vật",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8703,6 +8719,122 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Text_Book",
+      "persistentUuid": "6eb625bd-4be5-4eb8-9bec-b18b9e759955",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Chào mừng bạn đến với thế giới loài hoa.\nTôi là sổ tay chăm hoa có linh hồn.\nSẽ đồng hành cùng bạn suốt hành trình.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 25,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Chào mừng bạn đến với thế giới loài hoa.\nTôi là sổ tay chăm hoa có linh hồn.\nSẽ đồng hành cùng bạn suốt hành trình.",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Khung_Text_Book",
+      "persistentUuid": "a1fb23e9-8a58-44f7-8572-2ef3664a840f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "khung lời nhân vật",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "khung lời nhân vật",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 2
+                      },
+                      {
+                        "x": 187,
+                        "y": 2
+                      },
+                      {
+                        "x": 187,
+                        "y": 96
+                      },
+                      {
+                        "x": 13,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8821,6 +8953,12 @@
       },
       {
         "objectName": "bia_sach"
+      },
+      {
+        "objectName": "Text_Book"
+      },
+      {
+        "objectName": "Khung_Text_Book"
       }
     ]
   },
@@ -9157,6 +9295,10 @@
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
         },
         {
           "name": "ButtonFSM",
@@ -9745,6 +9887,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -9879,7 +10025,7 @@
           "name": "Var_Tut_Cao",
           "persistentUuid": "4e1f9749-b56a-4e3e-a3f9-a5559b4991b2",
           "type": "boolean",
-          "value": true
+          "value": false
         },
         {
           "name": "Var_Tut_Giong",
@@ -9916,106 +10062,15 @@
           "persistentUuid": "304da7ce-bc45-47c3-8fb1-22b37a0fbab0",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Var_Step",
+          "persistentUuid": "89c84949-884e-42a8-835e-a0b5713e2b21",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
-        {
-          "angle": 17,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cao_dat",
-          "persistentUuid": "9b810421-daff-4197-85c7-af7fdd112f41",
-          "width": 0,
-          "x": 353,
-          "y": 332,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "binh_nc",
-          "persistentUuid": "c0380dc2-9319-4ff5-98b9-c852ad312763",
-          "width": 0,
-          "x": 730,
-          "y": 257,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "huu_co",
-          "persistentUuid": "9e70d369-9f9f-481f-b4c4-1ec3eebf115d",
-          "width": 0,
-          "x": 277,
-          "y": 236,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vo_co",
-          "persistentUuid": "69ae049b-6eba-4c1e-b204-34696824d59e",
-          "width": 0,
-          "x": 344,
-          "y": 235,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vi_sinh",
-          "persistentUuid": "059bfd0d-37f3-4703-bf87-f79a940b7a42",
-          "width": 0,
-          "x": 410,
-          "y": 234,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 328,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "keo",
-          "persistentUuid": "89c814ee-73ac-4f47-9c69-2456598e7996",
-          "width": 0,
-          "x": 300,
-          "y": 328,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -10028,22 +10083,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hat_giong",
-          "persistentUuid": "ce1ffab9-b726-434b-9cf8-f43c75fe053f",
-          "width": 0,
-          "x": 432,
-          "y": 464,
-          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10453,6 +10492,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11181,7 +11221,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level1\"",
+                    "\"SelectLevel\"",
                     ""
                   ]
                 }
@@ -11336,6 +11376,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -11396,7 +11440,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.929687500000002,
+        "zoomFactor": 0.6455105703311497,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -11472,174 +11516,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hat_giong",
-          "persistentUuid": "830f53c2-5c45-41c9-a086-3c4628b1a3e7",
-          "width": 0,
-          "x": 434,
-          "y": 469,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "binh_nc",
-          "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
-          "width": 0,
-          "x": 724,
-          "y": 257,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 17,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cao_dat",
-          "persistentUuid": "3cd0fe66-10d7-410b-9a8e-593c3046b9cd",
-          "width": 0,
-          "x": 352,
-          "y": 333,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 328,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "keo",
-          "persistentUuid": "51eedca4-84a1-475b-aa95-f916cec86fd1",
-          "width": 0,
-          "x": 300,
-          "y": 326,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vo_co",
-          "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
-          "width": 0,
-          "x": 337,
-          "y": 229,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vi_sinh",
-          "persistentUuid": "fba0f9b6-7c41-4d52-b403-c6c4eb88bb34",
-          "width": 0,
-          "x": 410,
-          "y": 234,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "huu_co",
-          "persistentUuid": "6a4f983b-ce5b-4588-9a2c-ea79be7c7a6e",
-          "width": 0,
-          "x": 272,
-          "y": 236,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Text_Book",
-          "persistentUuid": "6eb625bd-4be5-4eb8-9bec-b18b9e759955",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Chào mừng bạn đến với thế giới loài hoa.\nTôi là sổ tay chăm hoa có linh hồn.\nSẽ đồng hành cùng bạn suốt hành trình.",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Chào mừng bạn đến với thế giới loài hoa.\nTôi là sổ tay chăm hoa có linh hồn.\nSẽ đồng hành cùng bạn suốt hành trình.",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 30,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        }
-      ],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Text_Book"
-          }
-        ]
+        "folderName": "__ROOT"
       },
       "events": [
         {
@@ -13633,6 +13514,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -13693,7 +13578,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.276247839383715,
+        "zoomFactor": 0.8993607583666636,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -13784,119 +13669,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hat_giong",
-          "persistentUuid": "830f53c2-5c45-41c9-a086-3c4628b1a3e7",
-          "width": 0,
-          "x": 432,
-          "y": 464,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "binh_nc",
-          "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
-          "width": 0,
-          "x": 724,
-          "y": 257,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 17,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cao_dat",
-          "persistentUuid": "3cd0fe66-10d7-410b-9a8e-593c3046b9cd",
-          "width": 0,
-          "x": 352,
-          "y": 333,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 328,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "keo",
-          "persistentUuid": "51eedca4-84a1-475b-aa95-f916cec86fd1",
-          "width": 0,
-          "x": 300,
-          "y": 326,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vo_co",
-          "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
-          "width": 0,
-          "x": 337,
-          "y": 229,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vi_sinh",
-          "persistentUuid": "fba0f9b6-7c41-4d52-b403-c6c4eb88bb34",
-          "width": 0,
-          "x": 410,
-          "y": 234,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "huu_co",
-          "persistentUuid": "6a4f983b-ce5b-4588-9a2c-ea79be7c7a6e",
-          "width": 0,
-          "x": 272,
-          "y": 236,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15964,6 +15736,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -16124,119 +15900,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hat_giong",
-          "persistentUuid": "830f53c2-5c45-41c9-a086-3c4628b1a3e7",
-          "width": 0,
-          "x": 432,
-          "y": 464,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "binh_nc",
-          "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
-          "width": 0,
-          "x": 724,
-          "y": 257,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 17,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cao_dat",
-          "persistentUuid": "3cd0fe66-10d7-410b-9a8e-593c3046b9cd",
-          "width": 0,
-          "x": 352,
-          "y": 333,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 328,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "keo",
-          "persistentUuid": "51eedca4-84a1-475b-aa95-f916cec86fd1",
-          "width": 0,
-          "x": 300,
-          "y": 326,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vo_co",
-          "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
-          "width": 0,
-          "x": 336,
-          "y": 226,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vi_sinh",
-          "persistentUuid": "fba0f9b6-7c41-4d52-b403-c6c4eb88bb34",
-          "width": 0,
-          "x": 410,
-          "y": 234,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "huu_co",
-          "persistentUuid": "6a4f983b-ce5b-4588-9a2c-ea79be7c7a6e",
-          "width": 0,
-          "x": 272,
-          "y": 236,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18460,6 +18123,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -18620,119 +18287,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hat_giong",
-          "persistentUuid": "830f53c2-5c45-41c9-a086-3c4628b1a3e7",
-          "width": 0,
-          "x": 432,
-          "y": 464,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "binh_nc",
-          "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
-          "width": 0,
-          "x": 724,
-          "y": 257,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 17,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cao_dat",
-          "persistentUuid": "3cd0fe66-10d7-410b-9a8e-593c3046b9cd",
-          "width": 0,
-          "x": 352,
-          "y": 333,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 328,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "keo",
-          "persistentUuid": "51eedca4-84a1-475b-aa95-f916cec86fd1",
-          "width": 0,
-          "x": 300,
-          "y": 326,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vo_co",
-          "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
-          "width": 0,
-          "x": 336,
-          "y": 226,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vi_sinh",
-          "persistentUuid": "fba0f9b6-7c41-4d52-b403-c6c4eb88bb34",
-          "width": 0,
-          "x": 410,
-          "y": 234,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "huu_co",
-          "persistentUuid": "6a4f983b-ce5b-4588-9a2c-ea79be7c7a6e",
-          "width": 0,
-          "x": 272,
-          "y": 236,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21416,6 +20970,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -21549,119 +21107,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hat_giong",
-          "persistentUuid": "830f53c2-5c45-41c9-a086-3c4628b1a3e7",
-          "width": 0,
-          "x": 432,
-          "y": 464,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "binh_nc",
-          "persistentUuid": "60992c47-44dd-4808-9ce1-61d4d24973fe",
-          "width": 0,
-          "x": 724,
-          "y": 257,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 17,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cao_dat",
-          "persistentUuid": "3cd0fe66-10d7-410b-9a8e-593c3046b9cd",
-          "width": 0,
-          "x": 352,
-          "y": 333,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 328,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "keo",
-          "persistentUuid": "51eedca4-84a1-475b-aa95-f916cec86fd1",
-          "width": 0,
-          "x": 300,
-          "y": 326,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vo_co",
-          "persistentUuid": "ff4d1fdb-dbb8-47f1-93d8-f0557f402a6f",
-          "width": 0,
-          "x": 336,
-          "y": 226,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vi_sinh",
-          "persistentUuid": "fba0f9b6-7c41-4d52-b403-c6c4eb88bb34",
-          "width": 0,
-          "x": 410,
-          "y": 234,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "huu_co",
-          "persistentUuid": "6a4f983b-ce5b-4588-9a2c-ea79be7c7a6e",
-          "width": 0,
-          "x": 272,
-          "y": 236,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25133,6 +24578,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -25210,7 +24659,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Create Level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25235,30 +24683,6 @@
                   "parameters": [
                     "",
                     "\"UI\"",
-                    "0",
-                    "0",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Win/Lose\"",
-                    "0",
-                    "0",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dashboard\"",
                     "0",
                     "0",
                     "0"
@@ -25561,7 +24985,18 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "Text_Book",
+                    "AutoTyping",
+                    ""
+                  ]
+                }
+              ],
               "actions": []
             }
           ],
@@ -25679,7 +25114,96 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
+          "name": "Khởi động",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Text_Book",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Khung_Text_Book",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text_Book",
+                    "Text",
+                    "=",
+                    "\"Chào mừng bạn đến với thế giới loài hoa.\nTôi là sổ tay chăm hoa có linh hồn.\nSẽ đồng hành cùng bạn suốt hành trình.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Text_Book"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Khung_Text_Book"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Var_Tut_Cao",
+                    "True",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Tutorial Cào đất",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25700,6 +25224,90 @@
               ],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Var_Tut_Cao",
+                        "True",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Text_Book",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Khung_Text_Book",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Text_Book",
+                        "Text",
+                        "=",
+                        "\"Đầu tiên, bạn hãy cào đất để giúp đất tơi xốp\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Text_Book"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Khung_Text_Book"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -26148,7 +25756,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tutorial Hạt Giống",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26169,6 +25776,90 @@
               ],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Var_Tut_Giong",
+                        "True",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Text_Book",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Khung_Text_Book",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Text_Book",
+                        "Text",
+                        "=",
+                        "\"Hãy gieo hạt giống đầu tiên\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Text_Book"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Khung_Text_Book"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -26290,7 +25981,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tutorial Next",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26316,11 +26006,94 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Chậu",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Chau",
+                            "True",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            "Text",
+                            "=",
+                            "\"Bạn có thể xem tình trạng \nđất bên trong bằng các bấm vào chậu\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Text_Book"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -26491,11 +26264,94 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Nước",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Nuoc",
+                            "True",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            "Text",
+                            "=",
+                            "\"Bạn cần tưới lượng nước \nphù hợp với từng giai đoạn của cây.\nBình nước tưới được 4 lần\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Text_Book"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -26745,11 +26601,94 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Đèn",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Den",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            "Text",
+                            "=",
+                            "\"Bạn cần bật mức đèn \nphù hợp với từng giai đoạn của cây.\nĐèn có 3 mức\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Text_Book"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -26987,11 +26926,94 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial Lò",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Lo",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            "Text",
+                            "=",
+                            "\"Bạn cần bật mức lò \nphù hợp với từng giai đoạn của cây.\nLò có 3 mức\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Text_Book"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -27192,11 +27214,94 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "tut phân bón",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Var_Tut_Phan",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Text_Book",
+                            "Text",
+                            "=",
+                            "\"Chúng ta có 3 loại phân lần lượt\nPhân hữu cơ, vô cơ và vi sinh vật.\nHãy chọn loại phân phù hợp với \ngiai đoạn của cây\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Text_Book"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Khung_Text_Book"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -27410,11 +27515,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -52018,6 +52118,1089 @@
         }
       ],
       "eventsBasedObjects": []
+    },
+    {
+      "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
+      "category": "User interface",
+      "dimension": "",
+      "extensionNamespace": "",
+      "fullName": "Auto typing animation for text (\"typewriter\" effect)",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXR5cGV3cml0ZXIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjAgMTNIMTZDMTYgMTQuMSAxNS4xIDE1IDE0IDE1SDEwQzguOSAxNSA4IDE0LjEgOCAxM0g0TDIgMThWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwQzIxLjEgMjIgMjIgMjEuMSAyMiAyMFYxOE02IDIwQzUuMTEgMjAgNC42NiAxOC45MiA1LjI5IDE4LjI5QzUuOTIgMTcuNjYgNyAxOC4xMSA3IDE5QzcgMTkuNTUgNi41NSAyMCA2IDIwTTEwIDIwQzkuMTEgMjAgOC42NiAxOC45MiA5LjI5IDE4LjI5QzkuOTIgMTcuNjYgMTEgMTguMTEgMTEgMTlDMTEgMTkuNTUgMTAuNTUgMjAgMTAgMjBNMTQgMjBDMTMuMTEgMjAgMTIuNjYgMTguOTIgMTMuMjkgMTguMjlDMTMuOTIgMTcuNjYgMTUgMTguMTEgMTUgMTlDMTUgMTkuNTUgMTQuNTUgMjAgMTQgMjBNMTggMjBDMTcuMTEgMjAgMTYuNjYgMTguOTIgMTcuMjkgMTguMjlDMTcuOTIgMTcuNjYgMTkgMTguMTEgMTkgMTlDMTkgMTkuNTUgMTguNTUgMjAgMTggMjBNMTggMTBWM0g2VjEwSDNWMTJIMjFWMTBNOCA1SDE2VjZIOE04IDdIMTRWOEg4IiAvPjwvc3ZnPg==",
+      "name": "AutoTyping",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/typewriter.svg",
+      "shortDescription": "Typewriter text reveal effect, one letter at a time. For Text/BitmapText objects.",
+      "version": "2.2.0",
+      "description": [
+        "Reveal a text one letter after the other (a \"typewriter\" effect).",
+        "",
+        "It can be used for dialogue scenes or visual novels on Text and Bitmap Text objects.",
+        "",
+        "The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg))."
+      ],
+      "origin": {
+        "identifier": "AutoTyping",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "text",
+        "bbtext",
+        "dialogue",
+        "visual novel",
+        "autotyping",
+        "bitmap"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "eventsBasedBehaviors": [
+        {
+          "description": "Reveal a text one letter after the other.",
+          "fullName": "Auto typing text",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "AutoTyping",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "FullText",
+                        "=",
+                        "Object.Text::Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Text",
+                        "!=",
+                        "TypedText"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "FullText",
+                        "=",
+                        "Object.Text::Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "CharacterJustAdded",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__AutoTyping.WriteTimer\"",
+                        ">=",
+                        "Interval"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "CharacterJustAdded",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__AutoTyping.WriteTimer\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "NextCharacter",
+                            "=",
+                            "StrAt(FullText, StrLength(TypedText))"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "NextCharacter",
+                                "=",
+                                "\" \""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AutoTyping::AutoTyping::ClearForcedLineBreak"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AutoTyping::AutoTyping::IsNextWordWrapped"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetStringVariable"
+                                  },
+                                  "parameters": [
+                                    "NextCharacter",
+                                    "=",
+                                    "NewLine()"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "TypedText",
+                                "+",
+                                "NextCharacter"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Text",
+                                "=",
+                                "TypedText"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "variables": [
+                        {
+                          "folded": true,
+                          "name": "NextCharacter",
+                          "type": "string",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::AutoTyping::IsFinished"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"__AutoTyping.WriteTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "TypedText",
+                            "=",
+                            "FullText"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Text",
+                            "=",
+                            "TypedText"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Is next word wrapped",
+              "functionType": "Condition",
+              "name": "IsNextWordWrapped",
+              "private": true,
+              "sentence": "_PARAM0_ next word is wrapped",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Temporary add the next word and check if it's adding a new line."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Height",
+                        "=",
+                        "Object.Height()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Text",
+                        "=",
+                        "SubStr(FullText, 0, StrFindFrom(FullText, \" \", StrLength(TypedText) + 1))"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Height",
+                            "<",
+                            "Object.Height()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetReturnBoolean"
+                          },
+                          "parameters": [
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Text",
+                            "=",
+                            "TypedText"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "Height",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Clear forced line breaks",
+              "functionType": "Action",
+              "name": "ClearForcedLineBreak",
+              "private": true,
+              "sentence": "Clear forced line breaks in _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TypedText",
+                        "=",
+                        "SubStr(FullText, 0, StrLength(TypedText))"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__AutoTyping.WriteTimer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__AutoTyping.WriteTimer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the full text has been typed.",
+              "fullName": "Finished typing",
+              "functionType": "Condition",
+              "name": "IsFinished",
+              "sentence": "_PARAM0_ finished typing",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "StrLength(TypedText)",
+                        "=",
+                        "StrLength(FullText)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if a character has just been typed. Useful for triggering sound effects.",
+              "fullName": "Has just typed",
+              "functionType": "Condition",
+              "name": "HasJustTyped",
+              "sentence": "_PARAM0_ has just typed a character",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "CharacterJustAdded",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Restart typing from the beginning of text. The autotyping also start automatically when a new text is set for the object.",
+              "fullName": "Restart typing from the beginning",
+              "functionType": "Action",
+              "name": "RestartFromBeginning",
+              "sentence": "Restart typing from the beginning on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TypedText",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Text",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__AutoTyping.WriteTimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__AutoTyping.WriteTimer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Jump to a specific position in the text. Positions start at \"0\" and increase by one for every character.",
+              "fullName": "Show Nth first characters",
+              "functionType": "Action",
+              "name": "JumpToPosition",
+              "sentence": "Show _PARAM2_ first characters on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TypedText",
+                        "+",
+                        "SubStr(FullText, 0, CharacterIndex)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Text",
+                        "=",
+                        "TypedText"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Character position",
+                  "name": "CharacterIndex",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Show the full text.",
+              "fullName": "Show the full text",
+              "functionType": "Action",
+              "name": "ShowFullText",
+              "sentence": "Show the full text on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TypedText",
+                        "+",
+                        "FullText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Text",
+                        "=",
+                        "TypedText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"__AutoTyping.WriteTimer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the time between characters beign typed.",
+              "fullName": "Time between characters",
+              "functionType": "ExpressionAndCondition",
+              "name": "Interval",
+              "sentence": "the time between characters",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Interval"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Interval",
+              "name": "SetInterval",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Interval",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AutoTyping::AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "IsNextWordWrapped"
+              },
+              {
+                "functionName": "ClearForcedLineBreak"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "onActivate"
+              },
+              {
+                "functionName": "IsFinished"
+              },
+              {
+                "functionName": "HasJustTyped"
+              },
+              {
+                "functionName": "RestartFromBeginning"
+              },
+              {
+                "functionName": "JumpToPosition"
+              },
+              {
+                "functionName": "ShowFullText"
+              },
+              {
+                "functionName": "Interval"
+              },
+              {
+                "functionName": "SetInterval"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Text capability",
+              "extraInformation": [
+                "TextContainerCapability::TextContainerBehavior"
+              ],
+              "choices": [],
+              "name": "Text"
+            },
+            {
+              "value": "0.05",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Time between characters",
+              "name": "Interval"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Detect if a new text character was just displayed",
+              "hidden": true,
+              "name": "CharacterJustAdded"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "",
+              "hidden": true,
+              "name": "FullText"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "",
+              "hidden": true,
+              "name": "TypedText"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Text"
+              },
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "FullText"
+              },
+              {
+                "propertyName": "TypedText"
+              }
+            ]
+          }
+        }
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": [
@@ -52200,9 +53383,139 @@
           "name": "Text_Book",
           "persistentUuid": "9815402c-65e6-46ab-b4ad-db3cedf5f231",
           "width": 0,
-          "x": 352,
-          "y": 566,
-          "zOrder": 14,
+          "x": 263,
+          "y": 347,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 226,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Khung_Text_Book",
+          "persistentUuid": "23819991-8277-4c0e-8c78-71774712ba2a",
+          "width": 714,
+          "x": 140,
+          "y": 287,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "huu_co",
+          "persistentUuid": "15f2cbdd-bc7a-4546-9c70-5dbcfdce2bf4",
+          "width": 0,
+          "x": 277,
+          "y": 232,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vo_co",
+          "persistentUuid": "717af0da-4644-4375-9dfc-9e0dedfe6c4c",
+          "width": 0,
+          "x": 341,
+          "y": 226,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vi_sinh",
+          "persistentUuid": "6d9c2aca-6138-4b77-b688-fc3d7ef359da",
+          "width": 0,
+          "x": 420,
+          "y": 235,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 328,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "keo",
+          "persistentUuid": "42d3d500-3da2-4e7d-b287-15deac7105c6",
+          "width": 0,
+          "x": 300,
+          "y": 328,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 17,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cao_dat",
+          "persistentUuid": "676eace5-456f-48f9-ad0c-c7bbab17a3b1",
+          "width": 0,
+          "x": 353,
+          "y": 332,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "binh_nc",
+          "persistentUuid": "37fdb7ad-533e-4118-a375-3568619886fb",
+          "width": 0,
+          "x": 750,
+          "y": 257,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "hat_giong",
+          "persistentUuid": "1c06ed90-87d7-4c82-8a43-6edd92d35a8f",
+          "width": 0,
+          "x": 432,
+          "y": 464,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
