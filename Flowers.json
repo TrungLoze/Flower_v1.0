@@ -11979,7 +11979,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "phân bón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25917,6 +25916,47 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "hat_giong",
+                        "Animation",
+                        "=",
+                        "\"đổ\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "hat_giong",
+                        "=",
+                        "508",
+                        "=",
+                        "406"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "hat_giong",
+                        "=",
+                        "42"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetXY"
                       },
                       "parameters": [
@@ -25925,6 +25965,16 @@
                         "432",
                         "=",
                         "464"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "hat_giong",
+                        "=",
+                        "0"
                       ]
                     },
                     {
@@ -26631,7 +26681,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "1"
+                            "3.5"
                           ]
                         },
                         {
@@ -27387,7 +27437,7 @@
                             "vo_co",
                             "Animation",
                             "=",
-                            "\"đổ\""
+                            "\"npk đổ\""
                           ]
                         },
                         {
@@ -27397,9 +27447,9 @@
                           "parameters": [
                             "vo_co",
                             "=",
-                            "539",
+                            "522",
                             "=",
-                            "401"
+                            "392"
                           ]
                         },
                         {
