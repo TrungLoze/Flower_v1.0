@@ -4496,6 +4496,14 @@
         "name": "khung lời nhân vật",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Object/book2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Object/book2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8558,55 +8566,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "book",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Object/book2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 14,
-                        "y": 15
-                      },
-                      {
-                        "x": 216,
-                        "y": 15
-                      },
-                      {
-                        "x": 216,
-                        "y": 237
-                      },
-                      {
-                        "x": 14,
-                        "y": 237
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -8835,6 +8794,68 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Book",
+      "persistentUuid": "c2fc967d-5387-4f63-afde-d4630c0cec3d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Object/book2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Object/book2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 44,
+                        "y": 32
+                      },
+                      {
+                        "x": 255,
+                        "y": 32
+                      },
+                      {
+                        "x": 255,
+                        "y": 153
+                      },
+                      {
+                        "x": 44,
+                        "y": 153
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8959,6 +8980,9 @@
       },
       {
         "objectName": "Khung_Text_Book"
+      },
+      {
+        "objectName": "Book"
       }
     ]
   },
@@ -10463,11 +10487,219 @@
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Core Game"
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Create Level",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tutorial\"",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text_Level",
+                    "Text",
+                    "=",
+                    "\"Level: \" + Var_Level_Now"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "lat_cat"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Light_pic"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Return",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SelectLevel\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Light",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "aiGeneratedEventId": "01M5RJCS61Q3T47KTKWCVJP5MR",
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Light Object",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SceneJustBegins"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Light_pic",
+                        "\"255;234;0\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeBlendMode"
+                      },
+                      "parameters": [
+                        "Light_pic",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Light_pic"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "day_den",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "day_den",
+                        "Animation",
+                        "=",
+                        "\"Co Vien\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "day_den",
+                        "Animation",
+                        "=",
+                        "\"Ko Vien\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -24761,111 +24993,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
-          "name": "Chien thang",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Tex_Win"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Thua Cuộc",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Lose",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "Tex_Win",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Tex_Win",
-                    "Text",
-                    "=",
-                    "\"Thua Cuộc\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"SelectLevel\"",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
           "name": "Light",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24969,34 +25096,6 @@
                 }
               ],
               "parameters": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Sách",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
-                  },
-                  "parameters": [
-                    "Text_Book",
-                    "AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
             }
           ],
           "parameters": []
@@ -53410,49 +53509,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 188,
           "keepRatio": true,
           "layer": "",
           "name": "book",
           "persistentUuid": "a963621f-87f9-4552-a6f8-e95dbce27320",
-          "width": 0,
-          "x": 16,
-          "y": 389,
+          "width": 172,
+          "x": -5,
+          "y": 209,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Text_Book",
-          "persistentUuid": "9815402c-65e6-46ab-b4ad-db3cedf5f231",
-          "width": 0,
-          "x": 263,
-          "y": 347,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 226,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Khung_Text_Book",
-          "persistentUuid": "23819991-8277-4c0e-8c78-71774712ba2a",
-          "width": 714,
-          "x": 140,
-          "y": 287,
-          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -53566,6 +53633,22 @@
           "x": 432,
           "y": 464,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Book",
+          "persistentUuid": "f14242c4-bbdd-4542-a541-bf70606641e2",
+          "width": 0,
+          "x": 170,
+          "y": 94,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -53929,6 +54012,341 @@
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       }
+    },
+    {
+      "associatedLayout": "Level1",
+      "name": "Tutorial",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "Layer_BG",
+          "locked": true,
+          "name": "Backgroud",
+          "persistentUuid": "3cd4f6d9-31f1-4b73-86ef-fa716f43361e",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Return",
+          "persistentUuid": "dd088403-7201-4586-8c14-ee108d07120f",
+          "width": 0,
+          "x": 5,
+          "y": 16,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bong_den",
+          "persistentUuid": "fb6fa3be-f7d7-45ce-ba9a-38f1160f0a6a",
+          "width": 0,
+          "x": 493,
+          "y": -55,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text_Level",
+          "persistentUuid": "dcac8976-6e32-42a6-81cd-4f28df2ab80d",
+          "width": 220,
+          "x": 68,
+          "y": 27,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Light_pic",
+          "persistentUuid": "421058bc-d998-4b49-8815-2ff3f80cd079",
+          "width": 0,
+          "x": 646,
+          "y": 95,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "day_den",
+          "persistentUuid": "c73d884f-a0ea-43dc-8c83-a3ad31dd6dad",
+          "width": 77,
+          "x": 654,
+          "y": 128,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "lò",
+          "persistentUuid": "f708444f-b133-4f8b-82b9-f89746b3432b",
+          "width": 0,
+          "x": 893,
+          "y": 284,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 171,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Thung_rac",
+          "persistentUuid": "d774b5d1-8757-4f56-ba21-d8975375a270",
+          "width": 187,
+          "x": 214,
+          "y": 445,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Line_La_Roi",
+          "persistentUuid": "d0a92ef5-8761-432a-adb5-277928746d45",
+          "width": 402,
+          "x": 446,
+          "y": 568,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "book",
+          "persistentUuid": "a963621f-87f9-4552-a6f8-e95dbce27320",
+          "width": 0,
+          "x": 16,
+          "y": 389,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text_Book",
+          "persistentUuid": "9815402c-65e6-46ab-b4ad-db3cedf5f231",
+          "width": 0,
+          "x": 263,
+          "y": 347,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 226,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Khung_Text_Book",
+          "persistentUuid": "23819991-8277-4c0e-8c78-71774712ba2a",
+          "width": 714,
+          "x": 140,
+          "y": 287,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "huu_co",
+          "persistentUuid": "15f2cbdd-bc7a-4546-9c70-5dbcfdce2bf4",
+          "width": 0,
+          "x": 277,
+          "y": 232,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vo_co",
+          "persistentUuid": "717af0da-4644-4375-9dfc-9e0dedfe6c4c",
+          "width": 0,
+          "x": 341,
+          "y": 226,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vi_sinh",
+          "persistentUuid": "6d9c2aca-6138-4b77-b688-fc3d7ef359da",
+          "width": 0,
+          "x": 420,
+          "y": 235,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 328,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "keo",
+          "persistentUuid": "42d3d500-3da2-4e7d-b287-15deac7105c6",
+          "width": 0,
+          "x": 300,
+          "y": 328,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 17,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cao_dat",
+          "persistentUuid": "676eace5-456f-48f9-ad0c-c7bbab17a3b1",
+          "width": 0,
+          "x": 353,
+          "y": 332,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "binh_nc",
+          "persistentUuid": "37fdb7ad-533e-4118-a375-3568619886fb",
+          "width": 0,
+          "x": 750,
+          "y": 257,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "hat_giong",
+          "persistentUuid": "1c06ed90-87d7-4c82-8a43-6edd92d35a8f",
+          "width": 0,
+          "x": 432,
+          "y": 464,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7876290101673769,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      }
     }
   ],
   "externalLayoutsFolderStructure": {
@@ -53936,6 +54354,9 @@
     "children": [
       {
         "itemName": "UI"
+      },
+      {
+        "itemName": "Tutorial"
       },
       {
         "itemName": "Win/Lose"
