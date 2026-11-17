@@ -4648,6 +4648,14 @@
         "name": "level 6-level 10/gđ7",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Object/backchonman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Object/backchonman.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -9869,7 +9877,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.8700232859857289,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -9898,14 +9906,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 89,
-          "height": 166,
+          "height": 70,
           "keepRatio": true,
           "layer": "",
           "name": "LevelButton",
           "persistentUuid": "fb41eedf-41ef-4a53-8b2d-2c714ee3e2d5",
-          "width": 864,
-          "x": 210,
-          "y": 495,
+          "width": 310,
+          "x": 487,
+          "y": 455,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9927,8 +9935,8 @@
           "name": "LevelButton",
           "persistentUuid": "e57d94f8-c22a-40a3-8f11-78efbfa0f297",
           "width": 64,
-          "x": 775,
-          "y": 100,
+          "x": 610,
+          "y": 160,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9950,8 +9958,8 @@
           "name": "LevelButton",
           "persistentUuid": "1cb4168a-8473-4bc9-ab84-b52aa555ef82",
           "width": 64,
-          "x": 475,
-          "y": 100,
+          "x": 530,
+          "y": 160,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9973,8 +9981,8 @@
           "name": "LevelButton",
           "persistentUuid": "d2556bfb-75c6-422f-bf24-c2174744ceaf",
           "width": 64,
-          "x": 1075,
-          "y": 100,
+          "x": 690,
+          "y": 160,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9996,8 +10004,8 @@
           "name": "LevelButton",
           "persistentUuid": "ca4ad392-fc45-41a5-b0fd-6d689fa82a41",
           "width": 64,
-          "x": 780,
-          "y": 300,
+          "x": 530,
+          "y": 230,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10019,8 +10027,8 @@
           "name": "LevelButton",
           "persistentUuid": "793e81a1-e710-4f6d-a7cc-04d32f2759c1",
           "width": 64,
-          "x": 1080,
-          "y": 300,
+          "x": 610,
+          "y": 230,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10042,8 +10050,8 @@
           "name": "LevelButton",
           "persistentUuid": "4ad44c7c-9391-48bc-b712-16fac33c4c25",
           "width": 64,
-          "x": 480,
-          "y": 300,
+          "x": 450,
+          "y": 230,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10065,8 +10073,8 @@
           "name": "LevelButton",
           "persistentUuid": "d3a801a1-54c7-4df1-a2c9-102e16d76581",
           "width": 64,
-          "x": 130,
-          "y": 300,
+          "x": 770,
+          "y": 160,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10088,8 +10096,8 @@
           "name": "LevelButton",
           "persistentUuid": "1f077186-1886-4865-a906-82e395e012e5",
           "width": 64,
-          "x": 136,
-          "y": 120,
+          "x": 450,
+          "y": 160,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10098,6 +10106,282 @@
               "name": "Var_Number",
               "type": "number",
               "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "a0f82a75-8c9a-4a8e-a9a8-004f76762cf6",
+          "width": 64,
+          "x": 770,
+          "y": 230,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "dcb3e8de-92f4-466c-bec7-ed7666bbabbc",
+          "width": 64,
+          "x": 690,
+          "y": 230,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "3970045e-27a9-48db-9eba-0cc6e8e7ff8a",
+          "width": 64,
+          "x": 450,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 11
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "74461973-084f-4af1-9e55-4dc7d5508182",
+          "width": 64,
+          "x": 530,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "9c4f88de-b37f-4aaf-bf17-782e562f16e2",
+          "width": 64,
+          "x": 610,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "afdcd443-5b4b-4a06-8cfe-aa5bda6ede9f",
+          "width": 64,
+          "x": 690,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "f38ebfca-5991-4362-a6b5-9f536b9afd6c",
+          "width": 64,
+          "x": 770,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "0adad2fb-9956-428e-8c99-6ac76193b9ff",
+          "width": 64,
+          "x": 450,
+          "y": 370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "473d601d-0099-4137-b303-cee4a6a6697c",
+          "width": 64,
+          "x": 530,
+          "y": 370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 17
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "9c498ee0-374f-45f4-8683-c8763b5accde",
+          "width": 64,
+          "x": 610,
+          "y": 370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "a24a6d76-cfe5-4827-bd3c-db49411ea852",
+          "width": 64,
+          "x": 690,
+          "y": 370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89.04347826086956,
+          "height": 66.78260869565216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LevelButton",
+          "persistentUuid": "c84d0f28-2131-463d-b273-7ac78b5b38b0",
+          "width": 64,
+          "x": 770,
+          "y": 370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Var_Number",
+              "type": "number",
+              "value": 20
             }
           ]
         }
@@ -10125,7 +10409,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "BackGroud",
+                      "image": "Object/backchonman.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10145,16 +10429,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 2752,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 2752,
+                            "y": 1536
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 1536
                           }
                         ]
                       ]
