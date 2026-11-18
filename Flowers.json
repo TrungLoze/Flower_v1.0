@@ -4688,6 +4688,22 @@
         "name": "6-10/hạt3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "gắp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gắp.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8221,7 +8237,7 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "nhip",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -8231,7 +8247,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "5 level đầu/Pixel Art Worm-Handling Tweezers.png",
+                  "image": "NewSprite13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8247,20 +8263,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 201,
-                        "y": 102
+                        "x": 20,
+                        "y": 10
                       },
                       {
-                        "x": 1386,
-                        "y": 102
+                        "x": 135,
+                        "y": 10
                       },
                       {
-                        "x": 1386,
-                        "y": 948
+                        "x": 135,
+                        "y": 93
                       },
                       {
-                        "x": 201,
-                        "y": 948
+                        "x": 20,
+                        "y": 93
                       }
                     ]
                   ]
@@ -12730,13 +12746,96 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ChangeColor"
               },
               "parameters": [
-                "chau",
-                "Animation",
-                "=",
-                "\"xới\""
+                "lò",
+                "\"155;155;155\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "day_den",
+                "\"99;99;99\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "vi_sinh",
+                "\"99;99;99\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "vo_co",
+                "\"99;99;99\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "huu_co",
+                "\"99;99;99\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "keo",
+                "\"99;99;99\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "keo",
+                "Draggable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "vo_co",
+                "Draggable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "vi_sinh",
+                "Draggable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "huu_co",
+                "Draggable",
+                ""
               ]
             }
           ]
@@ -16453,7 +16552,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "khoá các ob k dùng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
