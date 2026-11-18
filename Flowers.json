@@ -4476,7 +4476,7 @@
       {
         "file": "assets/đổ17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/đổ17.png\"}",
         "name": "đổ17",
         "smoothed": true,
         "userAdded": false
@@ -4702,6 +4702,38 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/Túi Hạt Giống Hoa Ngũ Sắc Pixel-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/Túi Hạt Giống Hoa Ngũ Sắc Pixel-.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ngũ sắc.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ngũ sắc.png\"}",
+        "name": "ngũ sắc",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ngũ sắc đổ.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ngũ sắc đổ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ngũ sắc đổ2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ngũ sắc đổ2",
         "smoothed": true,
         "userAdded": false
       }
@@ -7378,7 +7410,7 @@
       ],
       "animations": [
         {
-          "name": "hạt hướng dương",
+          "name": "hướng dương",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7439,7 +7471,7 @@
           ]
         },
         {
-          "name": "đổ",
+          "name": "hướng dương đổ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -12845,6 +12877,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13084,6 +13117,58 @@
                     "Var_Unlocked_Level[Var_Level_Now + 1]",
                     "=",
                     "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "hạt giống",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "chau",
+                    "hat_giong",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "chau",
+                    "Animation",
+                    "=",
+                    "\"xới\""
                   ]
                 }
               ]
@@ -21774,7 +21859,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "hạt giống",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23469,7 +23553,7 @@
                         "hat_giong",
                         "Animation",
                         "=",
-                        "\"đổ\""
+                        "\"hướng dương đổ\""
                       ]
                     },
                     {
