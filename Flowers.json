@@ -4736,6 +4736,22 @@
         "name": "ngũ sắc đổ2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/level 1-5/Túi Hạt Giống Hoa Ngũ Sắc Pixel-.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "level 1-5/Túi Hạt Giống Hoa Ngũ Sắc Pixel-",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 1-5/gói hoa ngũ sắc đổ hạt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "level 1-5/gói hoa ngũ sắc đổ hạt",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -7410,6 +7426,66 @@
       ],
       "animations": [
         {
+          "name": "level 1-5/Túi Hạt Giống Hoa Ngũ Sắc Pixel-",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "level 1-5/Túi Hạt Giống Hoa Ngũ Sắc Pixel-",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "level 1-5/gói hoa ngũ sắc đổ hạt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "level 1-5/gói hoa ngũ sắc đổ hạt",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "hướng dương",
           "useMultipleDirections": false,
           "directions": [
@@ -7419,7 +7495,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "hướng dương2",
                   "points": [],
                   "originPoint": {
@@ -7433,38 +7509,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 22.5,
-                        "y": 33.5
-                      },
-                      {
-                        "x": 17.5,
-                        "y": 16.5
-                      },
-                      {
-                        "x": 62.5,
-                        "y": 16.5
-                      },
-                      {
-                        "x": 57,
-                        "y": 33.5
-                      },
-                      {
-                        "x": 72,
-                        "y": 76
-                      },
-                      {
-                        "x": 41.25,
-                        "y": 77
-                      },
-                      {
-                        "x": 10.5,
-                        "y": 78
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -7480,7 +7525,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "đổ17",
                   "points": [],
                   "originPoint": {
@@ -8969,7 +9014,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "hoa_ngu_sac",
+      "name": "hoa_ngu_sac1",
       "persistentUuid": "7993bddb-de6b-4466-aca2-274b0e0bc483",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -9350,7 +9395,7 @@
         "objectName": "hoa_huong_duong"
       },
       {
-        "objectName": "hoa_ngu_sac"
+        "objectName": "hoa_ngu_sac1"
       },
       {
         "objectName": "NewParticlesEmitter"
@@ -12596,23 +12641,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nhip",
-          "persistentUuid": "00496164-77fc-45bf-b522-2a120e3e4ad0",
-          "width": 44,
-          "x": 789,
-          "y": 479,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -12633,13 +12661,6 @@
             "includeConfig": 0
           },
           "target": "on/off đèn"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "on/off lò"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -12693,7 +12714,7 @@
               "parameters": [
                 "Var_Win_Lo",
                 "=",
-                "2"
+                "0"
               ]
             },
             {
@@ -12747,7 +12768,7 @@
               },
               "parameters": [
                 "",
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "632",
                 "463",
                 ""
@@ -12758,7 +12779,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "Animation",
                 "=",
                 "\"6-10/hạt\""
@@ -12769,7 +12790,7 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "=",
                 "588",
                 "=",
@@ -12877,7 +12898,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12909,17 +12929,6 @@
                     "Var_number_nc",
                     "=",
                     "Var_Win_Nuoc"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "lò",
-                    "Var_muc_do",
-                    "=",
-                    "Var_Win_Lo"
                   ]
                 }
               ],
@@ -12961,7 +12970,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Flash",
                     "0.5",
                     ""
@@ -12972,7 +12981,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Animation",
                     "=",
                     "\"level 6-level 10/hạt mầm ngũ sắc\""
@@ -12983,7 +12992,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "=",
                     "585",
                     "=",
@@ -13462,39 +13471,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nhip",
-          "persistentUuid": "00496164-77fc-45bf-b522-2a120e3e4ad0",
-          "width": 44,
-          "x": 789,
-          "y": 479,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "chau",
-          "persistentUuid": "e22d2f0b-43bd-4e03-a486-a309d8a61147",
-          "width": 0,
-          "x": 429,
-          "y": 460,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -13595,7 +13571,7 @@
               "parameters": [
                 "Var_Win_Phan_vo_co",
                 "=",
-                "1"
+                "0"
               ]
             },
             {
@@ -13629,7 +13605,7 @@
               },
               "parameters": [
                 "",
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "632",
                 "463",
                 ""
@@ -13640,7 +13616,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "Animation",
                 "=",
                 "\"level 6-level 10/hạt mầm ngũ sắc\""
@@ -13651,7 +13627,7 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "=",
                 "588",
                 "=",
@@ -13670,6 +13646,109 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "khoá các ob k dùng",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "vi_sinh",
+                    "\"99;99;99\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "vo_co",
+                    "\"99;99;99\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "huu_co",
+                    "\"99;99;99\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "keo",
+                    "\"99;99;99\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "keo",
+                    "Draggable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "vo_co",
+                    "Draggable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "vi_sinh",
+                    "Draggable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "huu_co",
+                    "Draggable",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -13717,17 +13796,6 @@
                 },
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "vo_co",
-                    "Var_Phan",
-                    "=",
-                    "Var_Win_Phan_vo_co"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -13771,7 +13839,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Flash",
                     "0.5",
                     ""
@@ -13782,7 +13850,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Animation",
                     "=",
                     "\"mầm\""
@@ -13793,7 +13861,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "=",
                     "585",
                     "=",
@@ -14223,44 +14291,11 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nhip",
-          "persistentUuid": "00496164-77fc-45bf-b522-2a120e3e4ad0",
-          "width": 44,
-          "x": 789,
-          "y": 479,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "chau",
-          "persistentUuid": "e22d2f0b-43bd-4e03-a486-a309d8a61147",
-          "width": 0,
-          "x": 429,
-          "y": 460,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hoa_ngu_sac",
+          "name": "hoa_ngu_sac1",
           "persistentUuid": "e1fdbf5a-4b01-48f4-bbd6-2e1926777917",
           "width": 0,
           "x": 612,
@@ -14403,7 +14438,7 @@
               },
               "parameters": [
                 "",
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "632",
                 "463",
                 ""
@@ -14414,7 +14449,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "Animation",
                 "=",
                 "\"level 6-level 10/GĐ 2 ngũ sắc\""
@@ -14425,7 +14460,7 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "=",
                 "588",
                 "=",
@@ -14450,6 +14485,52 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "khoá các ob k dùng",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "keo",
+                    "\"99;99;99\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "keo",
+                    "Draggable",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14465,17 +14546,6 @@
                     "Var_number_nc",
                     "=",
                     "Var_Win_Nuoc"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "lò",
-                    "Var_muc_do",
-                    "=",
-                    "Var_Win_Lo"
                   ]
                 },
                 {
@@ -14534,7 +14604,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Flash",
                     "0.5",
                     ""
@@ -14545,7 +14615,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Animation",
                     "=",
                     "\"level 6-level 10/GĐ 3 \""
@@ -14556,7 +14626,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "=",
                     "585",
                     "=",
@@ -14986,44 +15056,11 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nhip",
-          "persistentUuid": "00496164-77fc-45bf-b522-2a120e3e4ad0",
-          "width": 44,
-          "x": 789,
-          "y": 479,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "chau",
-          "persistentUuid": "e22d2f0b-43bd-4e03-a486-a309d8a61147",
-          "width": 0,
-          "x": 429,
-          "y": 460,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hoa_ngu_sac",
+          "name": "hoa_ngu_sac1",
           "persistentUuid": "e1fdbf5a-4b01-48f4-bbd6-2e1926777917",
           "width": 0,
           "x": 612,
@@ -15166,7 +15203,7 @@
               },
               "parameters": [
                 "",
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "632",
                 "463",
                 ""
@@ -15177,7 +15214,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "Animation",
                 "=",
                 "\"level 6-level 10/GĐ 3 \""
@@ -15188,7 +15225,7 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "=",
                 "588",
                 "=",
@@ -15286,7 +15323,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Flash",
                     "0.5",
                     ""
@@ -15297,7 +15334,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Animation",
                     "=",
                     "\"level 6-level 10/gđ4\""
@@ -15308,7 +15345,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "=",
                     "585",
                     "=",
@@ -15738,44 +15775,11 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nhip",
-          "persistentUuid": "00496164-77fc-45bf-b522-2a120e3e4ad0",
-          "width": 44,
-          "x": 789,
-          "y": 479,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "chau",
-          "persistentUuid": "e22d2f0b-43bd-4e03-a486-a309d8a61147",
-          "width": 0,
-          "x": 429,
-          "y": 460,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hoa_ngu_sac",
+          "name": "hoa_ngu_sac1",
           "persistentUuid": "e1fdbf5a-4b01-48f4-bbd6-2e1926777917",
           "width": 0,
           "x": 612,
@@ -15918,7 +15922,7 @@
               },
               "parameters": [
                 "",
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "632",
                 "463",
                 ""
@@ -15929,7 +15933,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "Animation",
                 "=",
                 "\"level 6-level 10/gđ4\""
@@ -15940,7 +15944,7 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "hoa_ngu_sac",
+                "hoa_ngu_sac1",
                 "=",
                 "588",
                 "=",
@@ -16082,7 +16086,7 @@
                     "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Flash",
                     "0.5",
                     ""
@@ -16093,7 +16097,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "Animation",
                     "=",
                     "\"level 6-level 10/gđ5\""
@@ -16104,7 +16108,7 @@
                     "value": "SetXY"
                   },
                   "parameters": [
-                    "hoa_ngu_sac",
+                    "hoa_ngu_sac1",
                     "=",
                     "585",
                     "=",
@@ -17488,109 +17492,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "khoá các ob k dùng",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "vi_sinh",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "vo_co",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "huu_co",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "keo",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "keo",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "vo_co",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "vi_sinh",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "huu_co",
-                    "Draggable",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18326,52 +18227,6 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "khoá các ob k dùng",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "keo",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "keo",
-                    "Draggable",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         },
         {
           "colorB": 228,
@@ -21868,6 +21723,32 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "Animation",
+                    "=",
+                    "floor(max(0, Var_Level_Now - 1) / 5) * 2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -21896,9 +21777,71 @@
                   "parameters": [
                     "hat_giong",
                     "=",
+                    "500",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "66"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "Animation",
+                    "=",
+                    "floor(max(0, Var_Level_Now - 1) / 5) * 2 + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
                     "432",
                     "=",
                     "464"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "Animation",
+                    "=",
+                    "floor(max(0, Var_Level_Now - 1) / 5) * 2"
                   ]
                 },
                 {
@@ -21909,6 +21852,17 @@
                     "Var_hat_giong",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "chau",
+                    "Animation",
+                    "=",
+                    "\"xới\""
                   ]
                 }
               ]
@@ -22968,6 +22922,7 @@
                   ]
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -23144,16 +23099,6 @@
                       "parameters": [
                         "",
                         "\"Left\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BooleanVariable"
-                      },
-                      "parameters": [
-                        "Var_Tut_Cao",
-                        "=",
-                        "0"
                       ]
                     },
                     {
@@ -23351,6 +23296,16 @@
                         "Effect",
                         "\"VienCao\"",
                         "\"thickness\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Var_Tut_Cao",
+                        "False",
                         "0"
                       ]
                     },
