@@ -4684,7 +4684,7 @@
       {
         "file": "assets/6-10/hạt3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/6-10/hạt3.png\"}",
         "name": "6-10/hạt3",
         "smoothed": true,
         "userAdded": false
@@ -4790,6 +4790,286 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "level 1-5/Bọ trĩ sọc cam pixel art-Photoroom2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/hạt4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/hạt4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/hạt mầm ngũ sắc.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/hạt mầm ngũ sắc",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/hạt mầm ngũ sắc2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/6-10/hạt mầm ngũ sắc2.png\"}",
+        "name": "6-10/hạt mầm ngũ sắc2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ 2 ngũ sắc.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ 2 ngũ sắc",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ 2 ngũ sắc2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ 2 ngũ sắc2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ 2 ngũ sắc3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ 2 ngũ sắc3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ 3 .png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ 3 ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/gđ5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/gđ4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/gđ6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/gđ5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/cây lớn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/cây lớn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/6-10/GĐ14.png\"}",
+        "name": "6-10/GĐ12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6-10/GĐ15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6-10/GĐ13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/cắt ngọn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/cắt ngọn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cắt ngọn.png\"}",
+        "name": "cắt ngọn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cắt ngọn5.png\"}",
+        "name": "cắt ngọn5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_wtxi7twtxi7twtxi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_wtxi7twtxi7twtxi.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/cắt ngpnj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/cắt ngpnj.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1-5/Bản sao cắt ngọn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1-5/Bản sao cắt ngọn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cắt ngọn10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cắt ngọn11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cắt ngọn11.png\"}",
+        "name": "cắt ngọn11",
         "smoothed": true,
         "userAdded": false
       }
@@ -8537,7 +8817,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "La_heo",
       "persistentUuid": "629ace18-ead5-463f-9cf6-24d5c4abff13",
@@ -8584,20 +8864,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 49.5
+                      },
+                      {
+                        "x": 3.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 17
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 22,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 3
                       },
                       {
                         "x": 43,
-                        "y": 0
+                        "y": 14.5
                       },
                       {
-                        "x": 43,
-                        "y": 50
+                        "x": 34.5,
+                        "y": 6
                       },
                       {
-                        "x": 0,
-                        "y": 50
+                        "x": 36,
+                        "y": 21
+                      },
+                      {
+                        "x": 23,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 16.5,
+                        "y": 34.5
                       }
                     ]
                   ]
@@ -8609,7 +8925,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "La_heo2",
       "persistentUuid": "9c225b3d-fb29-4272-8eca-5b8ef9900446",
@@ -8656,20 +8972,76 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 25.5,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 20,
+                        "y": 37
+                      },
+                      {
+                        "x": 9,
+                        "y": 25
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      {
                         "x": 0,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 3,
+                        "y": 2
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 3
+                      },
+                      {
+                        "x": 16.5,
                         "y": 0
                       },
                       {
-                        "x": 43,
-                        "y": 0
+                        "x": 32,
+                        "y": 5
                       },
                       {
-                        "x": 43,
+                        "x": 40.5,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 42.5,
+                        "y": 34
+                      },
+                      {
+                        "x": 36,
                         "y": 50
                       },
                       {
-                        "x": 0,
-                        "y": 50
+                        "x": 31.5,
+                        "y": 47
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 43.5
+                      },
+                      {
+                        "x": 32,
+                        "y": 38.5
                       }
                     ]
                   ]
@@ -8681,7 +9053,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "La_heo3",
       "persistentUuid": "a1fabbd8-63a3-4da0-92d4-0255b1f7a209",
@@ -8729,18 +9101,70 @@
                     [
                       {
                         "x": 0,
+                        "y": 22.5
+                      },
+                      {
+                        "x": 3,
+                        "y": 13
+                      },
+                      {
+                        "x": 8,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 17.5,
                         "y": 0
                       },
                       {
-                        "x": 35,
-                        "y": 0
+                        "x": 25,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 1
                       },
                       {
                         "x": 35,
-                        "y": 40
+                        "y": 3
                       },
                       {
-                        "x": 0,
+                        "x": 35,
+                        "y": 11
+                      },
+                      {
+                        "x": 29,
+                        "y": 3.5
+                      },
+                      {
+                        "x": 30,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 30,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 24.5
+                      },
+                      {
+                        "x": 17.5,
+                        "y": 31
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 24.5
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 4.5,
                         "y": 40
                       }
                     ]
@@ -8753,7 +9177,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "La_heo4",
       "persistentUuid": "6806553f-92a0-491e-b81c-f4a4fe5db4d4",
@@ -8800,19 +9224,71 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 27.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 29,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 18.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 17.5,
+                        "y": 32
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 21
+                      },
+                      {
+                        "x": 6,
+                        "y": 14
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 5
+                      },
+                      {
                         "x": 0,
-                        "y": 0
+                        "y": 9.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 2.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 2
+                      },
+                      {
+                        "x": 19,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 28.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 34,
+                        "y": 14.5
                       },
                       {
                         "x": 36,
-                        "y": 0
+                        "y": 25
                       },
                       {
-                        "x": 36,
-                        "y": 42
+                        "x": 31.5,
+                        "y": 40
                       },
                       {
-                        "x": 0,
+                        "x": 26.5,
                         "y": 42
                       }
                     ]
@@ -9071,6 +9547,55 @@
       ],
       "animations": [
         {
+          "name": "cắt ngọn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cắt ngọn11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 38
+                      },
+                      {
+                        "x": 250,
+                        "y": 38
+                      },
+                      {
+                        "x": 250,
+                        "y": 315
+                      },
+                      {
+                        "x": 41,
+                        "y": 315
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "6-10/hạt",
           "useMultipleDirections": false,
           "directions": [
@@ -9081,7 +9606,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "6-10/hạt3",
+                  "image": "6-10/hạt4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9097,20 +9622,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9120,7 +9645,7 @@
           ]
         },
         {
-          "name": "level 6-level 10/hạt mầm ngũ sắc",
+          "name": "6-10/hạt mầm ngũ sắc",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9130,7 +9655,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level 6-level 10/hạt mầm ngũ sắc",
+                  "image": "6-10/hạt mầm ngũ sắc2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9146,20 +9671,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9169,7 +9694,7 @@
           ]
         },
         {
-          "name": "level 6-level 10/GĐ 2 ngũ sắc",
+          "name": "6-10/GĐ 2 ngũ sắc",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9179,7 +9704,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level 6-level 10/GĐ 2 ngũ sắc",
+                  "image": "6-10/GĐ 2 ngũ sắc3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9195,20 +9720,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9218,7 +9743,7 @@
           ]
         },
         {
-          "name": "level 6-level 10/GĐ 3 ",
+          "name": "6-10/GĐ 3 ",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9228,7 +9753,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level 6-level 10/GĐ 3 ",
+                  "image": "6-10/GĐ13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9244,20 +9769,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9267,7 +9792,7 @@
           ]
         },
         {
-          "name": "level 6-level 10/gđ4",
+          "name": "6-10/gđ4",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9277,7 +9802,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level 6-level 10/gđ4",
+                  "image": "6-10/gđ5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9293,20 +9818,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9316,7 +9841,7 @@
           ]
         },
         {
-          "name": "level 6-level 10/gđ5",
+          "name": "6-10/gđ5",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9342,20 +9867,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9365,7 +9890,7 @@
           ]
         },
         {
-          "name": "level 6-level 10/gđ6",
+          "name": "6-10/gđ6",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9391,20 +9916,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 250,
+                        "y": 315
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 41,
+                        "y": 315
                       }
                     ]
                   ]
@@ -9663,6 +10188,7 @@
       "value": 0
     },
     {
+      "folded": true,
       "name": "Var_Unlocked_Level",
       "persistentUuid": "3c4d4465-e66d-481a-8614-906540ec76b8",
       "type": "array",
@@ -12688,7 +13214,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 1.9284316855173629,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -12892,8 +13418,8 @@
               "parameters": [
                 "",
                 "hoa_ngu_sac1",
-                "632",
-                "463",
+                "634",
+                "470",
                 ""
               ]
             },
@@ -12910,14 +13436,12 @@
             },
             {
               "type": {
-                "value": "SetXY"
+                "value": "SetZOrder"
               },
               "parameters": [
                 "hoa_ngu_sac1",
                 "=",
-                "588",
-                "=",
-                "327"
+                "14\n"
               ]
             },
             {
@@ -13030,12 +13554,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
                     "value": "BooleanVariable"
                   },
                   "parameters": [
@@ -13053,6 +13571,12 @@
                     "=",
                     "Var_Win_Nuoc"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -13107,7 +13631,7 @@
                     "hoa_ngu_sac1",
                     "Animation",
                     "=",
-                    "\"level 6-level 10/hạt mầm ngũ sắc\""
+                    "\"6-10/hạt mầm ngũ sắc\""
                   ]
                 },
                 {
@@ -13117,9 +13641,19 @@
                   "parameters": [
                     "hoa_ngu_sac1",
                     "=",
-                    "585",
+                    "627",
                     "=",
-                    "326"
+                    "450"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "hoa_ngu_sac1",
+                    "=",
+                    "16"
                   ]
                 },
                 {
@@ -13249,58 +13783,6 @@
                     "Var_Unlocked_Level[Var_Level_Now + 1]",
                     "=",
                     "1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "hạt giống",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "chau",
-                    "hat_giong",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "chau",
-                    "Animation",
-                    "=",
-                    "\"xới\""
                   ]
                 }
               ]
@@ -13518,7 +14000,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 1.3841198046306862,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -13742,7 +14224,7 @@
                 "hoa_ngu_sac1",
                 "Animation",
                 "=",
-                "\"level 6-level 10/hạt mầm ngũ sắc\""
+                "\"6-10/hạt mầm ngũ sắc\""
               ]
             },
             {
@@ -13752,9 +14234,9 @@
               "parameters": [
                 "hoa_ngu_sac1",
                 "=",
-                "588",
+                "627",
                 "=",
-                "327"
+                "450"
               ]
             },
             {
@@ -13976,7 +14458,7 @@
                     "hoa_ngu_sac1",
                     "Animation",
                     "=",
-                    "\"mầm\""
+                    "\"6-10/GĐ 2 ngũ sắc\""
                   ]
                 },
                 {
@@ -13986,9 +14468,9 @@
                   "parameters": [
                     "hoa_ngu_sac1",
                     "=",
-                    "585",
+                    "611",
                     "=",
-                    "326"
+                    "443"
                   ]
                 },
                 {
@@ -14411,22 +14893,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hoa_ngu_sac1",
-          "persistentUuid": "e1fdbf5a-4b01-48f4-bbd6-2e1926777917",
-          "width": 0,
-          "x": 612,
-          "y": 412,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -14575,7 +15041,7 @@
                 "hoa_ngu_sac1",
                 "Animation",
                 "=",
-                "\"level 6-level 10/GĐ 2 ngũ sắc\""
+                "\"6-10/GĐ 2 ngũ sắc\""
               ]
             },
             {
@@ -14585,9 +15051,9 @@
               "parameters": [
                 "hoa_ngu_sac1",
                 "=",
-                "588",
+                "611",
                 "=",
-                "327"
+                "443"
               ]
             },
             {
@@ -14741,7 +15207,7 @@
                     "hoa_ngu_sac1",
                     "Animation",
                     "=",
-                    "\"level 6-level 10/GĐ 3 \""
+                    "\"6-10/GĐ 3 \""
                   ]
                 },
                 {
@@ -14751,9 +15217,9 @@
                   "parameters": [
                     "hoa_ngu_sac1",
                     "=",
-                    "585",
+                    "549",
                     "=",
-                    "326"
+                    "254"
                   ]
                 },
                 {
@@ -15100,7 +15566,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197614,
+        "zoomFactor": 0.4335774304702383,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -15184,19 +15650,47 @@
           "keepRatio": true,
           "layer": "",
           "name": "hoa_ngu_sac1",
-          "persistentUuid": "e1fdbf5a-4b01-48f4-bbd6-2e1926777917",
+          "persistentUuid": "8aa731a8-cb11-4a07-ae84-e92e611634e9",
           "width": 0,
-          "x": 612,
-          "y": 412,
-          "zOrder": 40,
+          "x": 512,
+          "y": 200,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ngon_bi_cat",
+          "persistentUuid": "cc9606ba-675e-4d69-9f34-08f1dde73b16",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": []
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "ngon_bi_cat"
+          }
+        ]
       },
       "events": [
         {
@@ -15340,7 +15834,7 @@
                 "hoa_ngu_sac1",
                 "Animation",
                 "=",
-                "\"level 6-level 10/GĐ 3 \""
+                "\"6-10/GĐ 3 \""
               ]
             },
             {
@@ -15350,9 +15844,9 @@
               "parameters": [
                 "hoa_ngu_sac1",
                 "=",
-                "588",
+                "549",
                 "=",
-                "327"
+                "254"
               ]
             },
             {
@@ -15382,16 +15876,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Var_number_nc",
-                    "=",
-                    "Var_Win_Nuoc"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -15403,11 +15887,50 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Var_number_nc",
+                    "=",
+                    "Var_Win_Nuoc"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "hoa_ngu_sac1",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hoa_ngu_sac1",
+                    "Animation",
+                    "=",
+                    "\"6-10/gđ4\""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -15443,24 +15966,13 @@
                 },
                 {
                   "type": {
-                    "value": "Flash::Flash::Flash"
-                  },
-                  "parameters": [
-                    "hoa_ngu_sac1",
-                    "Flash",
-                    "0.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "hoa_ngu_sac1",
                     "Animation",
                     "=",
-                    "\"level 6-level 10/gđ4\""
+                    "\"6-10/gđ4\""
                   ]
                 },
                 {
@@ -15470,11 +15982,18 @@
                   "parameters": [
                     "hoa_ngu_sac1",
                     "=",
-                    "585",
+                    "580",
                     "=",
-                    "326"
+                    "332"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
                 {
                   "type": {
                     "value": "Wait"
@@ -16079,7 +16598,7 @@
                 "hoa_ngu_sac1",
                 "Animation",
                 "=",
-                "\"level 6-level 10/gđ4\""
+                "\"6-10/gđ4\""
               ]
             },
             {
@@ -16253,7 +16772,7 @@
                     "hoa_ngu_sac1",
                     "Animation",
                     "=",
-                    "\"level 6-level 10/gđ5\""
+                    "\"6-10/gđ5\""
                   ]
                 },
                 {
@@ -22086,7 +22605,7 @@
                     "chau",
                     "Animation",
                     "=",
-                    "\"xới\""
+                    "\"sau gieo\""
                   ]
                 }
               ]
