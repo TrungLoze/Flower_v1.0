@@ -17908,127 +17908,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "khoá các ob k dùng",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "lò",
-                    "\"155;155;155\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "day_den",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "vi_sinh",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "vo_co",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "huu_co",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "keo",
-                    "\"99;99;99\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "keo",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "vo_co",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "vi_sinh",
-                    "Draggable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "huu_co",
-                    "Draggable",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21541,7 +21420,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 0.6455105703311497,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -21617,23 +21496,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 91,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nhip",
-          "persistentUuid": "00496164-77fc-45bf-b522-2a120e3e4ad0",
-          "width": 44,
-          "x": 789,
-          "y": 479,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [],
@@ -21647,34 +21509,6 @@
             "includeConfig": 0
           },
           "target": "Core Game"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "on/off đèn"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "on/off lò"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Sâu"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Lá úa"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -21708,7 +21542,7 @@
               "parameters": [
                 "Var_Win_Nuoc",
                 "=",
-                "4"
+                "1"
               ]
             },
             {
@@ -21728,7 +21562,7 @@
               "parameters": [
                 "Var_Win_Lo",
                 "=",
-                "2"
+                "0"
               ]
             },
             {
@@ -21748,7 +21582,7 @@
               "parameters": [
                 "Var_Win_Phan_vo_co",
                 "=",
-                "1"
+                "0"
               ]
             },
             {
@@ -21759,67 +21593,6 @@
                 "Var_Win_Phan_vi_sinh",
                 "=",
                 "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "hoa_huong_duong",
-                "632",
-                "463",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "hoa_huong_duong",
-                "Animation",
-                "=",
-                "\"nụ\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "hoa_huong_duong",
-                "=",
-                "588",
-                "=",
-                "327"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "chau",
-                "Animation",
-                "=",
-                "\"xới\""
               ]
             }
           ]
@@ -21859,31 +21632,19 @@
                 },
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "lò",
-                    "Var_muc_do",
-                    "=",
-                    "Var_Win_Lo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "vo_co",
-                    "Var_Phan",
-                    "=",
-                    "Var_Win_Phan_vo_co"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Var_hat_giong",
+                    "True",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -21938,7 +21699,17 @@
                     "hoa_huong_duong",
                     "Animation",
                     "=",
-                    "\"nở\""
+                    "\"hạt - mầm\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "=",
+                    "16"
                   ]
                 },
                 {
@@ -21948,9 +21719,9 @@
                   "parameters": [
                     "hoa_huong_duong",
                     "=",
-                    "585",
+                    "620",
                     "=",
-                    "326"
+                    "453"
                   ]
                 },
                 {
@@ -22069,7 +21840,1480 @@
                     "loi_thoai",
                     "Text",
                     "=",
-                    "\"Bạn đã hoàn thành cây hoa đầu tiên\""
+                    "\"Trồng thành công giai đoạn hạt giống.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Var_Unlocked_Level[Var_Level_Now + 1]",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer_BG",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 220,
+          "ambientLightColorG": 220,
+          "ambientLightColorR": 224,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level12",
+      "name": "Level12",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.8993607583666636,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [
+        {
+          "name": "ob_kéo_thả",
+          "objects": [
+            {
+              "name": "binh_nc"
+            },
+            {
+              "name": "keo"
+            },
+            {
+              "name": "cao_dat"
+            },
+            {
+              "name": "hat_giong"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Var_number_cao",
+          "persistentUuid": "b1aa4ab9-2198-42e9-8e51-e1e5f9928cee",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Var_number_nc",
+          "persistentUuid": "196f3b72-2a80-4765-ab71-30754a3589d4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Var_menu_phanbon",
+          "persistentUuid": "907967a8-b1e0-4492-aa4b-159a4733ad67",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Var_number_phan",
+          "persistentUuid": "c0d80380-3789-4595-b952-67549e421a3e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Var_drag",
+          "persistentUuid": "9d57a3e6-3b7b-49ff-9bb6-e52d3f0370d2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Var_hat_giong",
+          "persistentUuid": "daabcb9d-1d71-479c-8a36-f93ae2ff32b8",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "chau",
+          "persistentUuid": "de2cccda-bcf3-4fa5-84e5-6832903fd688",
+          "width": 0,
+          "x": 590,
+          "y": 460,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "lat_cat",
+          "persistentUuid": "af40ae76-5a1f-4c5e-8f7e-785e98b3cc13",
+          "width": 0,
+          "x": 594,
+          "y": 496,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Core Game"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "on/off đèn"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "on/off lò"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Setup Win"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Nuoc",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Den",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Lo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Phan_huu_co",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Phan_vo_co",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Phan_vi_sinh",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "hoa_huong_duong",
+                "632",
+                "463",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "Animation",
+                "=",
+                "\"hạt - mầm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "=",
+                "620",
+                "=",
+                "453"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"xới\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "thắng",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Var_number_nc",
+                    "=",
+                    "Var_Win_Nuoc"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Light_pic",
+                    "Var_mucdo",
+                    "=",
+                    "Var_Win_Den"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "lò",
+                    "Var_muc_do",
+                    "=",
+                    "Var_Win_Lo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Animation",
+                    "=",
+                    "\"mầm\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "=",
+                    "622",
+                    "=",
+                    "455"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lose\"",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "nut_bam_",
+                    "539",
+                    "555",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "Text",
+                    "=",
+                    "\"Màn tiếp\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_tren",
+                    "500",
+                    "125",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "text_tren",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "text_tren",
+                    "Text",
+                    "=",
+                    "\"Chiến thắng\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "loi_thoai",
+                    "388",
+                    "187",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "loi_thoai",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "loi_thoai",
+                    "Text",
+                    "=",
+                    "\"Trồng thành công giai đoạn hạt - mầm.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Var_Unlocked_Level[Var_Level_Now + 1]",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer_BG",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 220,
+          "ambientLightColorG": 220,
+          "ambientLightColorR": 224,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level13",
+      "name": "Level13",
+      "r": 247,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7130377630690412,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [
+        {
+          "name": "ob_kéo_thả",
+          "objects": [
+            {
+              "name": "binh_nc"
+            },
+            {
+              "name": "keo"
+            },
+            {
+              "name": "cao_dat"
+            },
+            {
+              "name": "hat_giong"
+            },
+            {
+              "name": "huu_co"
+            },
+            {
+              "name": "vo_co"
+            },
+            {
+              "name": "vi_sinh"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Var_number_cao",
+          "persistentUuid": "b1aa4ab9-2198-42e9-8e51-e1e5f9928cee",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Var_number_nc",
+          "persistentUuid": "196f3b72-2a80-4765-ab71-30754a3589d4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Var_menu_phanbon",
+          "persistentUuid": "907967a8-b1e0-4492-aa4b-159a4733ad67",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Var_number_phan",
+          "persistentUuid": "c0d80380-3789-4595-b952-67549e421a3e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Var_drag",
+          "persistentUuid": "9d57a3e6-3b7b-49ff-9bb6-e52d3f0370d2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Var_hat_giong",
+          "persistentUuid": "daabcb9d-1d71-479c-8a36-f93ae2ff32b8",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "chau",
+          "persistentUuid": "de2cccda-bcf3-4fa5-84e5-6832903fd688",
+          "width": 0,
+          "x": 590,
+          "y": 460,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "lat_cat",
+          "persistentUuid": "af40ae76-5a1f-4c5e-8f7e-785e98b3cc13",
+          "width": 0,
+          "x": 594,
+          "y": 496,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Core Game"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "on/off đèn"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "on/off lò"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Setup Win"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Nuoc",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Den",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Lo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Phan_huu_co",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Phan_vo_co",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Var_Win_Phan_vi_sinh",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "hoa_huong_duong",
+                "632",
+                "463",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "Animation",
+                "=",
+                "\"mầm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "hoa_huong_duong",
+                "=",
+                "622",
+                "=",
+                "455"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "chau",
+                "Animation",
+                "=",
+                "\"xới\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "thắng",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Var_number_nc",
+                    "=",
+                    "Var_Win_Nuoc"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Light_pic",
+                    "Var_mucdo",
+                    "=",
+                    "Var_Win_Den"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "vo_co",
+                    "Var_Phan",
+                    "=",
+                    "Var_Win_Phan_vo_co"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "636",
+                    "430",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter2",
+                    "636",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Flash",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "Animation",
+                    "=",
+                    "\"cây non\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "hoa_huong_duong",
+                    "=",
+                    "597",
+                    "=",
+                    "396"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lose\"",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "nut_bam_",
+                    "539",
+                    "555",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "nut_bam_",
+                    "Text",
+                    "=",
+                    "\"Màn tiếp\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_tren",
+                    "500",
+                    "125",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "text_tren",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "text_tren",
+                    "Text",
+                    "=",
+                    "\"Chiến thắng\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "loi_thoai",
+                    "388",
+                    "187",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "loi_thoai",
+                    "=",
+                    "103"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "loi_thoai",
+                    "Text",
+                    "=",
+                    "\"Trồng thành công giai đoạn cây non.\""
                   ]
                 },
                 {
@@ -22319,6 +23563,12 @@
       },
       {
         "itemName": "Level11"
+      },
+      {
+        "itemName": "Level12"
+      },
+      {
+        "itemName": "Level13"
       }
     ]
   },
@@ -29787,7 +31037,7 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "Nhip",
+                    "keo",
                     "Draggable",
                     "no"
                   ]
@@ -29965,6 +31215,16 @@
                     },
                     {
                       "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "ngon_bi_cat",
+                        "Draggable",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -29973,6 +31233,16 @@
                         "644",
                         "426",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "canh_tam_yeu",
+                        "Draggable",
+                        "no"
                       ]
                     },
                     {
@@ -29989,50 +31259,22 @@
                     },
                     {
                       "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "canh_vuon",
+                        "Draggable",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
                         "Var_DaTaoCay",
                         "True",
                         ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ActivateBehavior"
-                          },
-                          "parameters": [
-                            "ngon_bi_cat",
-                            "Draggable",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ActivateBehavior"
-                          },
-                          "parameters": [
-                            "canh_tam_yeu",
-                            "Draggable",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ActivateBehavior"
-                          },
-                          "parameters": [
-                            "canh_vuon",
-                            "Draggable",
-                            "no"
-                          ]
-                        }
                       ]
                     }
                   ]
@@ -30093,35 +31335,6 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "ngon_bi_cat",
-                        "<=",
-                        "400"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "hoa_huong_duong",
-                        "Animation",
-                        "=",
-                        "\"nụ k lá\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
                         "value": "CollisionNP"
                       },
                       "parameters": [
@@ -30147,8 +31360,8 @@
                       "parameters": [
                         "ngon_bi_cat",
                         "575",
-                        "530",
-                        "50",
+                        "550",
+                        "280",
                         "1"
                       ]
                     }
@@ -30184,8 +31397,8 @@
                       "parameters": [
                         "canh_tam_yeu",
                         "650",
-                        "530",
-                        "50",
+                        "550",
+                        "280",
                         "1"
                       ]
                     }
@@ -30220,9 +31433,9 @@
                       },
                       "parameters": [
                         "canh_vuon",
-                        "700",
-                        "500",
-                        "50",
+                        "680",
+                        "550",
+                        "280",
                         "1"
                       ]
                     }
@@ -30397,9 +31610,25 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "ngon_bi_cat",
+                        "Draggable",
+                        "no"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -30463,9 +31692,25 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "canh_tam_yeu",
+                        "Draggable",
+                        "no"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionTween2"
@@ -30529,9 +31774,25 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "canh_vuon",
+                        "Draggable",
+                        "no"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionTween2"
