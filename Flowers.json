@@ -5364,7 +5364,7 @@
       {
         "file": "level 11--15/hạt đổ hoa hồng-Photoroom.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"level 11--15/hạt đổ hoa hồng-Photoroom.png\",\"extension\":\".png\"}",
         "name": "level 11--15/hạt đổ hoa hồng-Photoroom.png",
         "smoothed": true,
         "userAdded": false
@@ -5558,6 +5558,102 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "k ra nụ2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hạt - mầm3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/hạt - mầm3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level tutorial/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level tutorial/2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level tutorial/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level tutorial/3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level tutorial/4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"level tutorial/4.png\",\"extension\":\".png\"}",
+        "name": "level tutorial/4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level tutorial/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level tutorial/5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/15.png\"}",
+        "name": "15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level tutorial/túi hạt giống tutorial-Photoroom.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"level tutorial/túi hạt giống tutorial-Photoroom.png\",\"extension\":\".png\"}",
+        "name": "level tutorial/túi hạt giống tutorial-Photoroom.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/Gói Hạt Giống Hoa Hồng Hồng Phấn-Photoroom.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "level 11--15/Gói Hạt Giống Hoa Hồng Hồng Phấn-Photoroom",
         "smoothed": true,
         "userAdded": false
       }
@@ -8410,16 +8506,47 @@
           ]
         },
         {
-          "name": "",
+          "name": "level 11--15/Gói Hạt Giống Hoa Hồng Hồng Phấn-Photoroom",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "level 11--15/Gói Hạt Giống Hoa Hồng Hồng Phấn-Photoroom.png",
+                  "image": "level 11--15/Gói Hạt Giống Hoa Hồng Hồng Phấn-Photoroom",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "level 11--15/hạt đổ hoa hồng-Photoroom",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "level 11--15/hạt đổ hoa hồng-Photoroom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8445,10 +8572,33 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        },
+        {
+          "name": "level tutorial/túi hạt giống tutorial-Photoroom",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "level 11--15/hạt đổ hoa hồng-Photoroom.png",
+                  "image": "level tutorial/túi hạt giống tutorial-Photoroom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12333,6 +12483,273 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "hoa_tut",
+      "persistentUuid": "1ae7942c-64fc-457f-a86f-e7f1a63489e2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "hạt-mầm",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/hạt - mầm3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 34
+                      },
+                      {
+                        "x": 4,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level tutorial/2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 34
+                      },
+                      {
+                        "x": 4,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 34
+                      },
+                      {
+                        "x": 4,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 34
+                      },
+                      {
+                        "x": 4,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level tutorial/5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 8
+                      },
+                      {
+                        "x": 37,
+                        "y": 34
+                      },
+                      {
+                        "x": 4,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -12355,6 +12772,9 @@
       },
       {
         "objectName": "hoa_ngu_sac1"
+      },
+      {
+        "objectName": "hoa_tut"
       },
       {
         "objectName": "NewParticlesEmitter"
@@ -14004,22 +14424,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hoa_huong_duong",
-          "persistentUuid": "f9078b26-72ea-40bf-9d67-e19e266876c9",
-          "width": 0,
-          "x": 631,
-          "y": 470,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -34324,6 +34728,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hat_giong",
+                    "Animation",
+                    "=",
+                    "\"level tutorial/túi hạt giống tutorial-Photoroom\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -35115,7 +35530,7 @@
                         "hat_giong",
                         "Animation",
                         "=",
-                        "\"hướng dương đổ\""
+                        "\"level tutorial/túi hạt giống tutorial-Photoroom\""
                       ]
                     },
                     {
@@ -35168,6 +35583,18 @@
                         "hat_giong",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "hoa_tut",
+                        "621",
+                        "451",
+                        ""
                       ]
                     },
                     {
@@ -35795,7 +36222,7 @@
                             "value": "Flash::Flash::Flash"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "Flash",
                             "0.5",
                             ""
@@ -35806,10 +36233,10 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "Animation",
                             "=",
-                            "\"mầm\""
+                            "\"2\""
                           ]
                         },
                         {
@@ -35817,7 +36244,7 @@
                             "value": "SetZOrder"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "=",
                             "chau.ZOrder()+2"
                           ]
@@ -35827,11 +36254,11 @@
                             "value": "SetXY"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "=",
-                            "608",
+                            "607",
                             "=",
-                            "431"
+                            "436"
                           ]
                         }
                       ]
@@ -36113,7 +36540,7 @@
                                 "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "Tween",
                                 "\"len_nuoc\"",
                                 "0.9",
@@ -36128,7 +36555,7 @@
                                 "value": "Flash::Flash::Flash"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "Flash",
                                 "0.5",
                                 ""
@@ -36139,10 +36566,10 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "Animation",
                                 "=",
-                                "\"cây non\""
+                                "\"3\""
                               ]
                             },
                             {
@@ -36150,11 +36577,11 @@
                                 "value": "SetXY"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "=",
-                                "598",
+                                "609",
                                 "=",
-                                "350"
+                                "390"
                               ]
                             }
                           ]
@@ -36416,7 +36843,7 @@
                                 "value": "Flash::Flash::Flash"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "Flash",
                                 "0.5",
                                 ""
@@ -36427,10 +36854,10 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "Animation",
                                 "=",
-                                "\"nụ\""
+                                "\"4\""
                               ]
                             },
                             {
@@ -36438,11 +36865,11 @@
                                 "value": "SetXY"
                               },
                               "parameters": [
-                                "hoa_huong_duong",
+                                "hoa_tut",
                                 "=",
-                                "588",
+                                "609",
                                 "=",
-                                "340"
+                                "385"
                               ]
                             }
                           ]
@@ -36705,7 +37132,7 @@
                             "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "Tween",
                             "\"len_nuoc\"",
                             "0.9",
@@ -36720,7 +37147,7 @@
                             "value": "Flash::Flash::Flash"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "Flash",
                             "0.5",
                             ""
@@ -36731,10 +37158,10 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "Animation",
                             "=",
-                            "\"hoa sắp nở\""
+                            "\"5\""
                           ]
                         },
                         {
@@ -36742,11 +37169,11 @@
                             "value": "SetXY"
                           },
                           "parameters": [
-                            "hoa_huong_duong",
+                            "hoa_tut",
                             "=",
-                            "581",
+                            "609",
                             "=",
-                            "307"
+                            "385"
                           ]
                         }
                       ]
