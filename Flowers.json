@@ -7171,7 +7171,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "keo",
       "persistentUuid": "d09ebae3-1431-4941-aedb-df0b4338fb01",
@@ -7221,20 +7221,76 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 17.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 1,
+                        "y": 82.5
+                      },
+                      {
+                        "x": 4,
+                        "y": 68
+                      },
+                      {
+                        "x": 21,
+                        "y": 42
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 22
+                      },
+                      {
+                        "x": 20.5,
+                        "y": 13
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 3
+                      },
+                      {
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 57,
-                        "y": 0
+                        "x": 38,
+                        "y": 4
+                      },
+                      {
+                        "x": 38.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 46,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 55,
+                        "y": 10
                       },
                       {
                         "x": 57,
-                        "y": 88
+                        "y": 17.5
                       },
                       {
-                        "x": 0,
-                        "y": 88
+                        "x": 55.5,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 28
+                      },
+                      {
+                        "x": 30,
+                        "y": 43
+                      },
+                      {
+                        "x": 19,
+                        "y": 78
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 87
                       }
                     ]
                   ]
@@ -11767,55 +11823,6 @@
       ],
       "animations": [
         {
-          "name": "level 11--15/4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "level 11--15/6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 101,
-                        "y": 0
-                      },
-                      {
-                        "x": 101,
-                        "y": 120
-                      },
-                      {
-                        "x": 0,
-                        "y": 120
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "level 11--15/1",
           "useMultipleDirections": false,
           "directions": [
@@ -11846,16 +11853,16 @@
                         "y": 0
                       },
                       {
-                        "x": 101,
+                        "x": 12,
                         "y": 0
                       },
                       {
-                        "x": 101,
-                        "y": 120
+                        "x": 12,
+                        "y": 12
                       },
                       {
                         "x": 0,
-                        "y": 120
+                        "y": 12
                       }
                     ]
                   ]
@@ -11895,16 +11902,16 @@
                         "y": 0
                       },
                       {
-                        "x": 101,
+                        "x": 12,
                         "y": 0
                       },
                       {
-                        "x": 101,
-                        "y": 120
+                        "x": 12,
+                        "y": 12
                       },
                       {
                         "x": 0,
-                        "y": 120
+                        "y": 12
                       }
                     ]
                   ]
@@ -11944,16 +11951,65 @@
                         "y": 0
                       },
                       {
-                        "x": 101,
+                        "x": 12,
                         "y": 0
                       },
                       {
-                        "x": 101,
-                        "y": 120
+                        "x": 12,
+                        "y": 12
                       },
                       {
                         "x": 0,
-                        "y": 120
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "level 11--15/4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level 11--15/6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 0
+                      },
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 0,
+                        "y": 12
                       }
                     ]
                   ]
@@ -11993,16 +12049,16 @@
                         "y": 0
                       },
                       {
-                        "x": 101,
+                        "x": 12,
                         "y": 0
                       },
                       {
-                        "x": 101,
-                        "y": 120
+                        "x": 12,
+                        "y": 12
                       },
                       {
                         "x": 0,
-                        "y": 120
+                        "y": 12
                       }
                     ]
                   ]
@@ -12042,16 +12098,16 @@
                         "y": 0
                       },
                       {
-                        "x": 101,
+                        "x": 12,
                         "y": 0
                       },
                       {
-                        "x": 101,
-                        "y": 120
+                        "x": 12,
+                        "y": 12
                       },
                       {
                         "x": 0,
-                        "y": 120
+                        "y": 12
                       }
                     ]
                   ]
@@ -12073,9 +12129,13 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -12141,9 +12201,13 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -12199,7 +12263,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "nach_la2",
       "persistentUuid": "c738b48d-b48f-4b54-a4c7-b3f10f67815f",
@@ -12209,9 +12273,13 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -12242,20 +12310,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 3
                       },
                       {
                         "x": 22,
                         "y": 0
                       },
                       {
-                        "x": 22,
-                        "y": 26
+                        "x": 17.5,
+                        "y": 12.5
                       },
                       {
-                        "x": 0,
-                        "y": 26
+                        "x": 9.5,
+                        "y": 11
                       }
                     ]
                   ]
@@ -27474,7 +27542,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9934590384902005,
+        "zoomFactor": 1.3841198046306868,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -27549,6 +27617,12 @@
           "persistentUuid": "511bac7d-21eb-422b-81a2-2189274df0e3",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Var_DaTaoCay",
+          "persistentUuid": "10f19378-484c-40a7-84b3-e71d5581c777",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -27580,70 +27654,6 @@
           "x": 594,
           "y": 496,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "hoa_hong",
-          "persistentUuid": "7c03bb04-781e-49ca-8f55-952140e09266",
-          "width": 0,
-          "x": 590,
-          "y": 365,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "nach_la",
-          "persistentUuid": "f7503569-e87b-4319-bd96-cb9d4b8ce964",
-          "width": 0,
-          "x": 605,
-          "y": 454,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "nach_la2",
-          "persistentUuid": "feb4491c-8227-4a83-9092-226d599f354d",
-          "width": 0,
-          "x": 641,
-          "y": 422,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "nach_la3",
-          "persistentUuid": "72fd454a-0851-4f13-9af8-9bfccc5ea11f",
-          "width": 0,
-          "x": 622,
-          "y": 389,
-          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27789,8 +27799,8 @@
               "parameters": [
                 "",
                 "hoa_hong",
-                "632",
-                "463",
+                "590",
+                "365",
                 ""
               ]
             },
@@ -27810,11 +27820,11 @@
                 "value": "SetXY"
               },
               "parameters": [
-                "hoa_huong_duong",
+                "hoa_hong",
                 "=",
-                "622",
+                "621",
                 "=",
-                "455"
+                "444"
               ]
             },
             {
@@ -27826,16 +27836,6 @@
                 "Animation",
                 "=",
                 "\"xới\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "hoa_hong",
-                "=",
-                "14"
               ]
             }
           ]
@@ -27986,9 +27986,9 @@
                   "parameters": [
                     "hoa_hong",
                     "=",
-                    "597",
+                    "590",
                     "=",
-                    "396"
+                    "365"
                   ]
                 },
                 {
@@ -28067,57 +28067,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "NewParticlesEmitter",
-                    "636",
-                    "430",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "NewParticlesEmitter2",
-                    "636",
-                    "450",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
                     "hoa_hong",
-                    "Animation",
-                    "=",
-                    "\"6-10/gđ4\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetXY"
-                  },
-                  "parameters": [
-                    "hoa_hong",
-                    "=",
-                    "580",
-                    "=",
-                    "332"
+                    "Flash",
+                    "0.5",
+                    ""
                   ]
                 }
               ],
@@ -28255,141 +28211,6 @@
                         "1"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Lose\"",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "nut_bam_",
-                    "539",
-                    "555",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "nut_bam_",
-                    "=",
-                    "103"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "nut_bam_",
-                    "Text",
-                    "=",
-                    "\"Màn tiếp\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "text_tren",
-                    "500",
-                    "125",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "text_tren",
-                    "=",
-                    "103"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "text_tren",
-                    "Text",
-                    "=",
-                    "\"Chiến thắng\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "loi_thoai",
-                    "388",
-                    "187",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "loi_thoai",
-                    "=",
-                    "103"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "loi_thoai",
-                    "Text",
-                    "=",
-                    "\"Trồng thành công giai đoạn cây non.\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Var_Unlocked_Level[Var_Level_Now + 1]",
-                    "=",
-                    "1"
                   ]
                 }
               ]
@@ -41636,7 +41457,7 @@
       ]
     },
     {
-      "associatedLayout": "Level4",
+      "associatedLayout": "Level13",
       "name": "Tỉa nách lá",
       "events": [
         {
@@ -41673,10 +41494,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "Var_win_level_4",
+                    "Var_win_level_13",
                     "False",
                     ""
                   ]
@@ -41833,10 +41662,16 @@
                         "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Var_win_level_4",
+                        "Var_win_level_13",
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -41847,8 +41682,8 @@
                       "parameters": [
                         "",
                         "nach_la",
-                        "591",
-                        "263",
+                        "605",
+                        "454",
                         ""
                       ]
                     },
@@ -41869,8 +41704,8 @@
                       "parameters": [
                         "",
                         "nach_la2",
-                        "644",
-                        "426",
+                        "641",
+                        "422",
                         ""
                       ]
                     },
@@ -41891,8 +41726,8 @@
                       "parameters": [
                         "",
                         "nach_la3",
-                        "634",
-                        "279",
+                        "622",
+                        "389",
                         ""
                       ]
                     },
@@ -41904,16 +41739,6 @@
                         "nach_la3",
                         "Draggable",
                         "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Var_DaTaoCay",
-                        "True",
-                        ""
                       ]
                     }
                   ]
@@ -42014,6 +41839,43 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
+                        "nach_la2",
+                        "keo",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceTowardPosition"
+                      },
+                      "parameters": [
+                        "nach_la2",
+                        "575",
+                        "550",
+                        "280",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
                         "nach_la3",
                         "keo",
                         "",
@@ -42078,6 +41940,53 @@
                       },
                       "parameters": [
                         "nach_la"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "nach_la",
+                        "Draggable",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "nach_la",
+                        "=",
+                        "304"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "nach_la2",
+                        "Line_La_Roi",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ClearForces"
+                      },
+                      "parameters": [
+                        "nach_la2"
                       ]
                     },
                     {
