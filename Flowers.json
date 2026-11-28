@@ -5656,6 +5656,182 @@
         "name": "level 11--15/Gói Hạt Giống Hoa Hồng Hồng Phấn-Photoroom",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/GĐ 2 ngũ sắc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/GĐ 2 ngũ sắc.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/GĐ 3 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/GĐ 3 .png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/gđ4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/gđ4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/gđ5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/gđ5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/gđ6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/gđ6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/gđ7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/gđ7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 6-level 10/gđ8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 6-level 10/gđ8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/6 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/6 .png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level 11--15/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/level 11--15/8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/héo16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "héo16",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -10604,6 +10780,199 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "level 6-level 10/gđ9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "héo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "héo10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "héo11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "héo12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "héo15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "héo16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -24268,7 +24637,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25852,7 +26220,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "thắng",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37804,7 +38171,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "nhíp",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38005,7 +38371,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "sâu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38045,7 +38410,7 @@
                     "",
                     "\"Tao_Sau\"",
                     ">=",
-                    "8"
+                    "24"
                   ]
                 }
               ],
@@ -38090,7 +38455,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Thua",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38106,7 +38470,7 @@
                     "",
                     "\"Sau_xuat_hien\"",
                     ">=",
-                    "11"
+                    "9"
                   ]
                 }
               ],
@@ -38333,7 +38697,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "10"
+                        "35"
                       ]
                     },
                     {
@@ -41590,7 +41954,7 @@
                     "",
                     "\"Mang_nhen_xuat_hien\"",
                     ">=",
-                    "10"
+                    "9"
                   ]
                 }
               ],
@@ -41765,6 +42129,17 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hoa_ngu_sac1",
+                    "Animation",
+                    "=",
+                    "\"héo\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -41785,7 +42160,7 @@
                     "",
                     "\"Tao_Mang_nhen\"",
                     ">=",
-                    "13"
+                    "20"
                   ]
                 }
               ],
@@ -41809,6 +42184,17 @@
                     "920",
                     "416",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hoa_ngu_sac1",
+                    "Animation",
+                    "=",
+                    "\"héo\""
                   ]
                 },
                 {
@@ -41874,6 +42260,17 @@
                   "parameters": [
                     "",
                     "\"Mang_nhen_xuat_hien\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "hoa_ngu_sac1",
+                    "Animation",
+                    "=",
+                    "\"6-10/gđ6\""
                   ]
                 }
               ]
